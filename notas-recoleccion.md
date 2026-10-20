@@ -333,4 +333,103 @@ Sin más casos de uso pendientes — etapa cerrada.
 
 ## Etapa 7 — Requerimientos No Funcionales
 
-_(pendiente)_
+_(cerrada)_
+
+### Volumetría
+- Referencia inicial: ~100 posibles clientes/mes, con 12–25 mensajes conversacionales por caso.
+
+### Tiempo de respuesta
+- El bot no necesita ser instantáneo; **30–120 segundos** es un rango aceptable para responder al contacto.
+
+### Protección de datos personales (Colombia — Ley 1581 de 2012, Habeas Data)
+- Antes de capturar datos de un **Prospecto** (nombre, correo, teléfono, empresa), el agente debe pedir **consentimiento explícito** con un mensaje tipo: "¿deseas continuar con una consultoría? Tus datos se usarán para que el equipo comercial te contacte".
+- Para **Seguidores**: se guarda solo lo mínimo necesario para categorizarlos (sin tratamiento pleno de datos personales), ya que no avanzan en el funnel comercial.
+- **Pendiente**: validar con asesoría legal una Política de Tratamiento de Datos Personales antes del lanzamiento comercial. No bloquea el levantamiento actual.
+
+### Arquitectura de despliegue (decisión de negocio, no de tecnología)
+- **No es multi-tenant compartido.** Cada organización cliente tiene su **propia infraestructura/instancia independiente** (BD y despliegue propios).
+- Cuando llega un nuevo cliente del producto, se **duplica la infraestructura completa** para ese cliente específico, en vez de aislar datos dentro de un sistema compartido.
+- Esto simplifica el modelo de datos (no se necesita aislamiento multi-tenant a nivel de esquema), pero implica que el proceso de "dar de alta un nuevo cliente del producto" debe ser repetible/plantillable.
+
+### Autoservicio de conexión de redes
+- Que el Administrador pueda conectar/desconectar redes sociales por sí mismo es un **plus deseable, no un requisito obligatorio**. Puede configurarse manualmente al desplegar cada instancia si el autoservicio no está listo en una primera versión.
+
+### Resiliencia ante caída del bot
+- **Monitoreo de salud + alerta inmediata** al Administrador/Líder por otro canal cuando el bot deja de responder.
+- **Mensaje automático de contingencia** al cliente ("en breve te contactamos") para que no perciba silencio total mientras el bot está caído.
+- La atención mientras tanto pasa a ser manual (consistente con el estado `atencion_manual` ya definido).
+
+---
+
+## Adenda — Modelo modular/comercial y arquitectura (post-cierre)
+
+> Surgió después de cerrar las 7 etapas. Reabre parcialmente Actores, Procesos y No
+> Funcionales. Se integra a la estructura final una vez cerrada.
+
+### Modelo comercial: módulos independientes
+El producto se descompone en **módulos vendibles de forma independiente, en sub-paquete
+o en paquete completo** (el cliente arma su combinación libremente):
+
+| Módulo | Qué hace | Relación con lo ya definido |
+|---|---|---|
+| **M1 — Bandeja unificada** | Centraliza conversaciones de redes en un filtro tipo CRM | Base del inbox |
+| **M2 — Agente de respuesta a potenciales clientes** | Clasifica Seguidor/Prospecto y hace la encuesta de datos | Mitad de lo que era "Agente externo" |
+| **M3 — Agente de bienvenida y categorización de seguidores** | Se activa con el evento "seguir" (no con un mensaje); engancha con productos vía menú de opciones | Nuevo (ver detalle abajo) |
+| **M4 — Agente de atención a Gerencia** | Consulta en lenguaje natural (Telegram/WhatsApp), personalizado por organización | "Agente conversacional de Gerencia" |
+| **M5 — Dashboard gerencial** | Tablero web con login, estadísticas | Fase 2 |
+| **M6 — Agente de agendamiento y cierre** | Coordina fecha con el cliente, confirma con la Líder, agenda, y da seguimiento post-reunión con el equipo comercial | La otra mitad de "Agente externo" + "Agente interno de seguimiento", ahora unidas en un solo módulo |
+
+**Pendiente de resolver:** si el **Panel de Administración/Configuración de la compañía**
+(ver abajo) es infraestructura base incluida siempre, o un módulo more vendible aparte.
+
+### Arquitectura: comunicación solo vía estado en la BD compartida (CONFIRMADO, regla general)
+Los módulos **nunca se llaman directamente entre sí**. Cada uno observa cambios de estado
+en la base de datos compartida y decide su propio flujo a partir de eso (ej. M2 marca
+`datos_completos = true` en un Prospecto; M6 lo detecta y arranca su propio flujo de
+agendamiento). Esto permite:
+- Vender cualquier módulo de forma independiente.
+- Que un módulo siga funcionando aunque otro no esté activo/comprado, siempre que exista
+  el dato que necesita en la BD (sin importar quién lo puso ahí).
+- La dependencia entre módulos (ej. M6 necesita datos que normalmente pone M2) es una
+  **dependencia de datos**, no una dependencia de disponibilidad de otro agente.
+
+### Panel de Administración / Configuración de la compañía (nuevo, a definir módulo)
+- Cada compañía tiene una **plantilla propia**: info base de la empresa, mensajes de
+  bienvenida, preguntas de encuesta, opciones de menú — todo alimentado desde una sola
+  fuente de información base de la compañía, gestionable por el Administrador.
+- Es la pieza que alimenta de contenido dinámico a M2, M3 y los demás módulos
+  conversacionales (plantillas, no texto fijo en código).
+
+### M3 — Agente de bienvenida y categorización de seguidores (detalle)
+- Se activa con el evento "seguir" en una red (confirmado funcionando hoy en Instagram;
+  abierto a extenderlo a otras redes con concepto de "seguidor" si es posible, no es
+  requisito inmediato).
+- El menú de bienvenida presenta opciones = productos/servicios de la compañía
+  (configurables vía el Panel de Administración).
+- Ramas identificadas en el menú de bienvenida:
+  1. **"Quiero trabajar con ustedes" (empleo)** → mensaje + enlace externo a la página de
+     oportunidades de empleo. No se convierte en Prospecto.
+  2. **"Estoy interesado en un producto / trabajar con la compañía (comercial)"** → se
+     enlaza a WhatsApp para continuar con el flujo comercial (M2 clasifica/encuesta, luego
+     M6 agenda). **Si confirma interés real, ya queda gestionado como Prospecto.**
+  3. **"Conocer más de la compañía"** → enlace a la página oficial de la empresa.
+     No se convierte en Prospecto.
+
+**Resuelto:**
+1. **Panel de Administración**: se entrega también por partes, pero como **una sola
+   estructura base completa** desplegada siempre igual; las funciones de los módulos no
+   contratados quedan **deshabilitadas** según el plan/servicios comprados (no se
+   construyen paneles distintos por cliente — se habilita/deshabilita sobre la misma base).
+2. **Campaña a seguidores históricos**: sí se envía, pero **no de forma masiva** — se
+   despliega de forma gradual/escalonada ("exponencial poco a poco"), también para poder
+   manejar la comunicación con esos seguidores sin saturar al equipo.
+3. **Categorización de interés en Seguidores**: confirmado — sirve para **difusión
+   segmentada** a futuro (ej. enviar un mensaje de difusión a todos los que marcaron
+   interés en "trabajar con nosotros" cuando se abra una vacante en un área específica).
+4. **Doble entrada WhatsApp/Instagram**: no es un problema nuevo — M2 ya aplica su regla
+   de identificación existente (ver Etapa 5): al llegar el mensaje de WhatsApp, M2 valida
+   si el teléfono ya existe. Si no existía, lo trata como Prospecto nuevo; si ya existía,
+   retoma la conversación/Oportunidad desde donde quedó. No se necesita mecanismo nuevo.
+
+### Cierre de la Adenda
+Sin puntos pendientes — se integra a la estructura final en capas.
