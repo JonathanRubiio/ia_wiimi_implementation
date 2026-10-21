@@ -18,6 +18,28 @@ El **Panel de Administración / Configuración de la compañía** (ver más abaj
 módulo opcional: es la infraestructura base que viene siempre, independientemente de qué
 módulos se hayan comprado.
 
+## Estructura de la aplicación
+
+- **Página pública**: presenta el producto, precios y servicios (sin login).
+- Tras iniciar sesión, **3 secciones**, cada una vista según el rol del usuario:
+  1. **Dashboard** (M5) — puramente estadístico, para Gerencia.
+  2. **Módulo comercial** (M1) — bandeja de conversaciones centralizada; aquí la Líder
+     reasigna/focaliza casos al equipo comercial.
+  3. **Panel Administrativo** — exclusivo del Administrador, para las variables y la
+     Plantilla de Compañía (ver más abajo).
+
+## Niveles de servicio Normal/Premium (por módulo, no es un eje global)
+
+No todos los módulos tienen una variante Premium — se define módulo por módulo, solo
+donde tiene sentido de negocio:
+
+| Módulo | Normal | Premium |
+|---|---|---|
+| **M3** | Mensaje de bienvenida nativo (Instant Reply) + clasificación de la respuesta por M2 | ManyChat Follow-to-DM: menú de botones real, disparado por el evento "seguir" (sujeto a elegibilidad de Meta) |
+| **M4** | Respuestas predeterminadas/plantilladas | Agente personalizado por compañía, menos restrictivo en cómo conversa — pero **en ambos niveles sigue limitado a consulta/información operacional en tiempo real**, nunca puede escribir o modificar datos |
+| **M6** | Nivel único — agendamiento y notificación a la Líder comercial son acciones constantes/core, iguales para todos los clientes | *(sin variante Premium)* |
+| M1, M2, M5 | Sin nivel definido por ahora | — |
+
 ## Arquitectura de comunicación: solo vía estado en la base de datos compartida
 
 **Regla general para todos los módulos** (no solo M2→M6): los módulos **nunca se llaman

@@ -123,8 +123,9 @@ de forma visual.
 
 - **Given** Gerencia inicia sesión en el dashboard,
   **When** accede,
-  **Then** ve chats respondidos, prospectos ingresados, casos atendidos por comercial y
-  conversiones a Cliente.
+  **Then** ve, como mínimo: cantidad de personas contactadas, cierres (conversiones a
+  Cliente), procesos abiertos (Oportunidades activas), personas que dejaron de
+  responder, y personas en estado `no_atiende`. *(lista inicial, sujeta a ampliarse)*
 
 ## UC10 — Administración del sistema
 
