@@ -223,6 +223,109 @@ repartir la lógica de cron entre `pg_cron` y n8n.
 | Dashboard M5 | Next.js a medida + librería de gráficos, sobre Supabase Auth — sección separada del Módulo comercial |
 | Rutinas/cron | Schedule Trigger de n8n |
 
+## 11. Expansión a otras redes — Facebook y LinkedIn
+
+> Barrido adicional a petición del usuario, mismo tipo de validación que se hizo con
+> Instagram: ¿hay API de mensajería? ¿hay evento de "seguir"/"conectar" disponible?
+
+### Facebook — viable para M2, igual que Instagram no tiene evento de "seguir"
+
+- **M2 (mensajería)**: totalmente viable. Facebook Messenger Platform usa los **mismos
+  webhooks del Graph API** que ya se usan para Instagram y WhatsApp (campo `messages`
+  del objeto Page) — es la API de mensajería más madura y documentada de Meta. No suma
+  trabajo adicional relevante: es básicamente el mismo integrador, otro canal.
+- **M3 Premium (ManyChat Follow-to-DM)**: **no aplica a Facebook.** El programa de Meta
+  es específico de Instagram — no existe un equivalente de "mensaje automático al dar
+  like/seguir la Página" en Facebook.
+- **M3 Normal (Instant Reply nativo)**: **sí aplica.** Es la misma herramienta de Meta
+  Business Suite que ya cubre Instagram — gestiona el inbox de ambas superficies desde
+  un solo panel. Mismas limitaciones (un mensaje de texto, sin menú de botones).
+- **Evento "nuevo like/seguidor de Página"**: **no existe como webhook en tiempo real.**
+  Meta deprecó ese tipo de evento granular hace años (razones de privacidad); solo está
+  disponible como métrica agregada en la Insights API (conteo, no evento). Mismo vacío
+  que Instagram, confirmado también en Facebook.
+
+**Conclusión Facebook:** se suma de forma natural a M2 y a M3-Normal, sin trabajo extra
+relevante (reutiliza el mismo Graph API). No tiene variante M3-Premium.
+
+### LinkedIn — ⚠️ no viable con los mismos principios de seguridad que ya aplicamos (no-OpenClaw)
+
+- **No existe ningún webhook** de conexión nueva, seguidor, mensaje ni ningún evento de
+  engagement personal en la API oficial de LinkedIn.
+- La **Messages API oficial** está cerrada a partners aprobados, solo permite mensajes a
+  conexiones de primer grado, y **exige que cada mensaje lo revise y envíe una persona
+  real** — LinkedIn prohíbe explícitamente que el envío sea un evento automatizado o
+  programado. No hay forma de automatizar esto cumpliendo las reglas de LinkedIn.
+- El **inbox de Páginas de empresa** sí admite mensajería, pero solo a través de **6
+  plataformas aprobadas por nombre** (Hootsuite, Sprinklr, Oktopost, Brandwatch, Zoho
+  Recruit, Bird CRM) — no hay acceso de API abierto para un desarrollador independiente.
+- Lo único que ofrecen herramientas de "automatización de LinkedIn" en el mercado son
+  **APIs no oficiales que simulan una sesión de navegador real** — operan fuera de los
+  términos de uso de LinkedIn, que **detecta y sanciona activamente** esta práctica
+  (hasta con baneo de la cuenta).
+
+**Conclusión LinkedIn:** por el mismo principio de seguridad con el que descartamos
+OpenClaw (no exponer al cliente a un riesgo operativo por una herramienta que opera
+fuera de las reglas de la plataforma), **no se recomienda automatizar LinkedIn** en esta
+versión del producto — usar una API no oficial pondría en riesgo la cuenta real de
+LinkedIn de cada organización cliente. Si a futuro un cliente necesita presencia ahí,
+sería mensajería manual hecha por una persona, fuera del alcance de M2/M3.
+
+**No es un "nunca": hay una puerta oficial, pero con condición de desbloqueo.** LinkedIn
+sí tiene un programa de solicitud para ser socio de la **Pages Messaging API** (la misma
+que usan Hootsuite, Sprinklr, etc.) — no es una lista cerrada para siempre. Pero:
+
+- **Solo empresas constituidas pueden aplicar — desarrolladores/proyectos individuales
+  no son elegibles.** El proyecto hoy está declarado como personal/autofinanciado (capa
+  1 de requerimientos), así que no califica para aplicar todavía.
+- Aunque se aplicara, la aprobación toma **3–4 meses en promedio** (revisan caso de uso,
+  manejo de datos y seguridad) — no es viable para un lanzamiento inicial.
+
+**Condición de desbloqueo:** una vez el proyecto esté constituido como empresa (y con
+cierta tracción/credibilidad para pasar la revisión), se podría aplicar al programa
+oficial y sumar LinkedIn de forma legítima al inbox unificado (M1) — ni antes, ni por
+vías no oficiales.
+
+### X (Twitter) — técnicamente viable para M2, con reservas de costo y estabilidad
+
+- **M2 (mensajería vía DM)**: viable, pero en 2026 X eliminó el tier gratuito para
+  desarrolladores nuevos — ahora es **pago por uso** (créditos, lectura de DM
+  ~$0.01/solicitud). Al volumen declarado (~1.500–2.500 mensajes/mes) representaría
+  ~$15–25/mes *solo* en esta red, con tendencia a subir si crece el volumen.
+- **M3 (evento "seguir")**: no se encontró confirmación de un webhook público de nuevo
+  seguidor — mismo vacío que Instagram/Facebook, a validar antes de prometerlo.
+- X tiene el historial más inestable de cambios de política/precio de API entre las
+  redes evaluadas. **Recomendación: viable como expansión futura, no prioridad de V1.**
+
+### TikTok — geográficamente restringido, no confirmado para Colombia
+
+- Existe una Business Messaging API (2025-2026) con socios aprobados (SleekFlow,
+  MessageGate), que soporta respuestas automáticas y mensajes de bienvenida.
+- **Restricción geográfica explícita**: no disponible en EE.UU./UE/Suiza/Reino Unido; el
+  "comment-to-DM" (equivalente a Follow-to-DM) solo funciona en Vietnam, Tailandia e
+  Indonesia. **No se confirmó si Colombia está habilitada** para DM automation — no
+  prometer sin validar directamente con TikTok.
+- Fricción adicional: cada plantilla de mensaje pasa por una cola de moderación de
+  **1 a 5 días hábiles**, lo cual no encaja con el tiempo de respuesta esperado (30–120
+  segundos, capa 7 de requerimientos). **Recomendación: no incluir en V1.**
+
+### Google Business Messages — descartada, API discontinuada
+
+Google cerró Business Messages el 31 de julio de 2024; no admite implementaciones
+nuevas. Fuera de consideración por completo.
+
+### Telegram como canal de cara al cliente (no solo interno) — expansión gratuita
+
+Ya se usa Telegram internamente para M4/M6. Su Bot API es abierta, gratuita y sin las
+restricciones de aprobación de Meta/TikTok/LinkedIn — si se quiere sumar como canal
+**de cara al cliente** (no solo interno), el esfuerzo adicional es mínimo.
+
+### Tamaño real del CRM multicanal recomendado para V1
+
+**WhatsApp + Instagram + Facebook** (y Telegram si se desea, sin costo ni restricción
+adicional). X queda como expansión futura condicionada al costo por volumen; TikTok y
+LinkedIn quedan condicionadas a validar/constituir antes de prometerlas.
+
 ## Riesgos y validaciones pendientes
 
 1. **M3 por "seguir" no tiene webhook oficial** — depende de ManyChat Follow-to-DM
@@ -242,6 +345,15 @@ repartir la lógica de cron entre `pg_cron` y n8n.
 7. **Tarifas de WhatsApp citadas son de referencia en USD** (mayormente EE.UU.) —
    validar tarifas específicas para Colombia con Meta/360dialog antes de fijar precios
    de venta del producto.
+8. **Facebook no tiene variante M3-Premium** (no existe equivalente de Follow-to-DM) —
+   si se vende M3 para una organización con Facebook e Instagram, dejar claro que
+   Facebook solo puede ofrecerse en nivel Normal.
+9. **LinkedIn queda fuera de alcance de M1/M2/M3 por ahora** — no hay forma de
+   automatizarlo sin violar los términos de uso (riesgo de baneo de la cuenta del
+   cliente), y la única vía oficial para sumarlo incluso de forma pasiva (Pages
+   Messaging API) exige ser empresa constituida (no proyecto individual) y pasar una
+   revisión de 3–4 meses. Confirmado con el usuario — queda documentado como condición
+   de desbloqueo futura, no como descarte definitivo (ver sección 11).
 
 ## Fuentes consultadas (búsqueda web, octubre 2026)
 

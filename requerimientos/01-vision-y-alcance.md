@@ -53,7 +53,13 @@ Visibilidad estadística con alta confianza sobre:
 - Las 3 fases forman parte de la visión completa del producto y se desarrollan en
   paralelo. El detalle fino de procesos, reglas y casos de uso se centra primero en la
   Fase 1, por ser la base operativa de las otras dos.
-- No hay exclusiones adicionales definidas en esta versión.
+- **LinkedIn queda fuera de alcance por ahora**, como excepción a la idea original de
+  "entre más redes asociadas, mejor". No existe forma de integrarlo (ni automatizado, ni
+  como canal pasivo de lectura) sin violar los términos de uso de la plataforma o sin
+  que el proyecto esté constituido como empresa (requisito de LinkedIn para su programa
+  oficial de mensajería de Páginas, con revisión de 3–4 meses). Ver el detalle técnico en
+  `diseno-tecnico/01-investigacion-tecnologica.md`, sección 11. Condición de desbloqueo:
+  constituir el proyecto como empresa y aplicar al programa oficial.
 
 ## Restricciones de negocio
 
