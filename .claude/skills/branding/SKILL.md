@@ -34,9 +34,9 @@ este mismo entorno.
 1. ¿El tono de marca es más corporativo/serio o más cercano/informal? (afecta tipografía
    y tono de voz en `brand.md`).
 2. ¿Hay algún color que el usuario ya asocie con el producto o quiera evitar?
-3. ¿El nombre comercial final del producto ya está decidido? (hoy el repo se llama
-   `ia_wiimi_implementation` — confirmar si "Wiimi" o similar es el nombre real a usar
-   en los documentos, o si es solo un nombre de repositorio interno).
+3. El nombre comercial del producto es **Apollo Services** — usarlo en todos los
+   documentos de marca (el repo de GitHub se llama `ia_apollo_services_implementation`,
+   que es solo el identificador interno, no el nombre comercial en sí).
 
 ## Artefactos que produce
 

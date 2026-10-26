@@ -1,5 +1,5 @@
 ---
-name: sdd-wiimi
+name: sdd-apollo-services
 description: Spec-Driven Development adaptado a este proyecto (sin GitLab/MR) — planifica cambios grandes como un contrato revisable (.sdd/<slug>/) con gate de aprobación antes de codear, y audita lo ya construido contra ese mismo estándar. Usar al iniciar cada módulo (M1–M6), ante riesgo arquitectónico, o cuando se pida repasar/mejorar lo ya planteado.
 ---
 

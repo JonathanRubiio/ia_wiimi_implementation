@@ -22,12 +22,13 @@ propia infraestructura duplicada.
 - **Metodología**: cada fase se validó con el usuario en modo pregunta-respuesta antes
   de escribirse — no se avanza una capa/documento sin su confirmación explícita.
 - **Para trabajo nuevo grande** (implementar un módulo, rediseñar algo con riesgo
-  arquitectónico, o auditar/mejorar lo ya planteado): usar la skill `sdd-wiimi` —
+  arquitectónico, o auditar/mejorar lo ya planteado): usar la skill `sdd-apollo-services` —
   contrato de spec en `.sdd/<slug>/` con gate de aprobación antes de codear.
-- **Git**: commits con Conventional Commits + emoji (`wiedii-dev:git-workflow`), push
-  directo a `master` en GitHub (`JonathanRubiio/ia_wiimi_implementation`) — no hay flujo
-  de MR, es un solo desarrollador. Nunca commitear/pushear sin confirmación explícita en
-  el momento (regla global del usuario, no solo de este proyecto).
+- **Git**: commits con Conventional Commits **sin emoji** (anula para este proyecto la
+  convención por defecto de `wiedii-dev:git-workflow`, que sí usa emoji), push directo
+  a `master` en GitHub (`JonathanRubiio/ia_apollo_services_implementation`) — no hay
+  flujo de MR, es un solo desarrollador. Nunca commitear/pushear sin confirmación
+  explícita en el momento (regla global del usuario, no solo de este proyecto).
 - **Documentos administrativos** (pitch, marco teórico, costos): skill `doc-generator`
   (python-docx/pptx/openpyxl ya instalados), aplicando `apa-format` cuando el tipo de
   documento lo requiera.
@@ -39,7 +40,7 @@ propia infraestructura duplicada.
 
 | Skill | Para qué |
 |---|---|
-| `sdd-wiimi` | Planificar/auditar cambios grandes como contrato revisable, con búsqueda obligatoria de alternativas open source antes de construir algo a medida |
+| `sdd-apollo-services` | Planificar/auditar cambios grandes como contrato revisable, con búsqueda obligatoria de alternativas open source antes de construir algo a medida |
 | `apa-format` | Formato APA 7ma edición para documentos académicos/teóricos |
 | `doc-generator` | Generar `.docx`/`.pptx`/`.xlsx` reales desde el contenido ya desarrollado |
 | `branding` | Paleta de colores, tipografía, tono de voz y brief de logo (sin artwork rasterizado) |
@@ -49,4 +50,4 @@ propia infraestructura duplicada.
 - `marca/` — artefactos de la skill `branding`.
 - `scripts/` — scripts generadores de `doc-generator` (uno por documento).
 - `documentos/` — entregables finales generados (`.docx`/`.pptx`/`.xlsx`), nunca mezclados con `requerimientos/`/`diseno-tecnico/`.
-- `.sdd/<slug>/` — contratos de spec de `sdd-wiimi`, uno por cambio grande.
+- `.sdd/<slug>/` — contratos de spec de `sdd-apollo-services`, uno por cambio grande.
