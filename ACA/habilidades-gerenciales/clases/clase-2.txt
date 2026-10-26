@@ -1,0 +1,177 @@
+CLASE 2 — Habilidades Gerenciales (Tema 1: Inteligencia Emocional)
+Fecha mencionada en clase: 9 de octubre.
+El quiz de esta semana (cierra domingo 11 de octubre) cubre **solo** este tema
+(inteligencia emocional), basado en las diapositivas de esta sesión — no entra
+creatividad/liderazgo.
+
+## Por qué este tema en una especialización de IA
+Un proyecto de inteligencia artificial es, por definición, un contexto de alta
+demanda/carga emocional. Quienes se especialicen en IA van a ser personas visibles en
+sus organizaciones (se les va a consultar cuando surjan iniciativas), y de ahí se
+desprenden impactos no solo técnicos sino hacia las personas que usan o se ven
+afectadas por la tecnología.
+
+## Caso disparador: "los 9 segundos"
+Comité de 8 personas (gerente, directores del área del proyecto, representante
+técnico, constructor del modelo). El modelo de IA presentado reduce un proceso de 3
+días a 40 segundos, con 87% de coincidencia con las decisiones del comité de
+analistas humano. El gerente pide comentarios: **9 segundos de silencio total**. Se
+rompe con una frase: *"Interesante, habría que revisar la metodología con calma."*
+
+Pregunta de análisis: ¿es una duda técnica o es otra cosa? Lectura trabajada en clase:
+es una respuesta "corporativamente correcta" / diplomática que oculta que la persona
+no quedó convencida; probablemente faltó que quien presentó el modelo explicara no
+solo la optimización de tiempos sino los impactos y riesgos para las personas (cómo
+cambian las dinámicas del equipo) — la falta de esa explicación es lo que genera dudas
+que no se verbalizan.
+
+Resultado real del caso: el acta registró "aprobado por unanimidad tácita", sin
+objeciones ni riesgos — pero en la realidad hubo 4 rondas más de validación,
+ausencias a reuniones y el piloto se detuvo. Conclusión del profesor: **"el dato más
+caro de la reunión no estaba en la presentación, sino en las personas."**
+
+## Estructura de la sesión: diagnosticar → regular → conducir
+1. **Diagnosticar**: identificar qué protege realmente un stakeholder detrás de una
+   objeción técnica (qué hay debajo de la objeción).
+2. **Regular**: elegir y nombrar una estrategia de regulación emocional propia.
+3. **Conducir**: llevar una conversación difícil hasta un acuerdo verificable.
+
+## Marco teórico: qué es y qué no es la inteligencia emocional
+Tres corrientes:
+- **Teoría de habilidades** (Mayer y Salovey): la IE es una capacidad cognitiva que
+  regula las emociones — conocimiento que modera lo que sentimos.
+- **Teoría de rasgos** (Petrides y Furnham): "autopercepción disposicional" —
+  conocerme a mí mismo (fortalezas/debilidades) para saber hasta dónde llega mi propio
+  control.
+- **Modelo mixto** (Daniel Goleman): combina conocimiento teórico + autopercepción, y
+  de ahí se actúa con un plan. Frase citada en clase: "el 90% del éxito de un líder
+  depende de su inteligencia emocional" — porque el liderazgo se ejerce con y para las
+  personas; un líder que sirve a su equipo (en vez de imponerse) genera respaldo,
+  compromiso y fidelidad.
+
+**Qué NO es la inteligencia emocional**: no es un predictor general de liderazgo
+(tenerla no implica automáticamente ser líder); no es un sustituto del criterio
+técnico; no es un rasgo fijo innato — se desarrolla con trabajo interno (conocimiento
++ autoobservación).
+
+**Qué SÍ es**: una capacidad diferencial que se nota en contextos de alta carga
+emocional — resaltan quienes ya la han cultivado previamente.
+
+## Reacciones típicas ante la llegada de IA a una organización
+- Amenaza a la identidad experta.
+- Incertidumbre sobre roles ("¿quién va a ser qué?").
+- Responsabilidad difusa ante el error ("¿quién responde cuando falle?").
+- Sensación de decisión ya tomada por otros, sin participación.
+
+**Distinción clave**: "comprar tecnología" ≠ "adopción de tecnología". Comprar es
+adquirir la herramienta (licencia de Copilot, ChatGPT Enterprise, Claude Code, etc.).
+Adoptar es un proceso que prepara el ambiente: capacitar, explicar qué puede/no puede
+hacer la IA, qué datos se pueden/no cargar, socializar una política de uso, y solo
+después entregar la herramienta y medir cumplimiento con métricas. Las reacciones
+negativas de la lista anterior suelen aparecer cuando solo hubo compra/desarrollo sin
+proceso de adopción.
+
+## Teoría de la apreciación de Lázarus
+Cuatro momentos entre el hecho y la conducta: **Hecho → Apreciación → Emoción →
+Conducta**.
+- El **hecho** es la situación objetiva (ej. "llegó una automatización para X
+  proceso").
+- La **apreciación** es el filtro/interpretación subjetiva ("las gafas que me pongo")
+  que cada persona aplica al mismo hecho — puede variar mucho entre personas que viven
+  la misma situación.
+- De la apreciación surge un cúmulo de **emociones**, que desemboca en una
+  **conducta**.
+- Principio central: **"la conducta no se cambia discutiendo el hecho; se cambia
+  identificando la apreciación que tiene la persona respecto al hecho."**
+- Toda apreciación suele responder a tres preguntas: ¿afecta mis **metas** (lo que
+  trato de lograr)? ¿afecta mi **identidad** (quién soy y qué me hace valioso)?
+  ¿tengo **control** sobre lo que va a pasar?
+
+## Ejercicio: decisión de reducción de personal por automatización
+Caso trabajado: un jefe de área con 10 personas debe elegir 5 para despedir porque un
+modelo de IA absorbe parte del trabajo. Puntos que surgieron en la discusión:
+- Negociar primero con el superior si hay margen; si no lo hay, ejecutar la decisión.
+- Balancear objetividad técnica (desempeño, competencias) con criterios humanos:
+  actitud/compromiso con el proyecto, capacidad de adaptarse al trabajo en equipo
+  (priorizar actitud sobre aptitud pura cuando hay empate técnico).
+- Evitar favoritismo o confundir personalidad con desempeño.
+- Un criterio citado: priorizar a quienes saben trabajar en equipo, porque "una sola
+  persona no hace un milagro".
+- Riesgo señalado: la decisión siempre se mueve en una línea delgada entre lo que le
+  conviene al equipo y lo que le conviene a la empresa.
+
+## Encuesta: causa real del rechazo pasivo/ausencias ante un proyecto de IA
+Resultado más votado: **"sintieron que otros tomaron la decisión por ellos"** (afecta
+el control) > "afectaba su identidad como expertos" > en menor grado "afectaba sus
+metas". Confirma empíricamente el marco de Lázarus: control e identidad pesan más que
+metas en estos contextos.
+
+Casos reales compartidos (condensados):
+- Implementar seguimiento más estricto por KPIs en un área de mantenimiento sin
+  involucrar al equipo → el equipo se sintió atacado/no consultado y terminó creando
+  su propia herramienta paralela "por debajo de cuerda" en vez de usar la oficial.
+- IA para historias clínicas en consulta externa → los médicos (los "expertos")
+  sintieron amenazada su identidad, mostraron rechazo pasivo inicial ("necesito más
+  pruebas"), hasta entender que la IA apoya y no reemplaza su criterio final de
+  decisión.
+
+## Cuatro reacciones posibles ante el mismo hecho
+Objeciones técnicas interminables; exigencia de documentación excesiva; boicot pasivo
+(evasivas tipo "no he tenido tiempo"); colaboración activa (curiosidad genuina,
+"muéstreme el modelo").
+
+## Regulación emocional
+**"Se decide antes de la emoción, no mientras está sucediendo."**
+- **Reevaluación** (recomendada): detenerse, considerar que puede haber otra lectura
+  de la situación, calmar la reacción interna antes de responder.
+- **Supresión** (no recomendada): aguantarse y explotar después — **"aguantarse no es
+  autorregulación"**; quien acumula sin reevaluar termina estallando por un detonante
+  pequeño tras meses de acumulación.
+- Tarea personal de autoconocimiento: identificar el propio "disparador" (qué detona
+  la reacción) y el propio "botón de apagado" (cómo se calma uno mismo).
+- Técnicas prácticas para manejar la expresión en el momento (contexto presencial):
+  tomar agua, retirar y volver a poner las gafas, practicar frente al espejo sonriendo
+  mientras se habla, o aclarar explícitamente ante el equipo que una expresión seria
+  no equivale a mal genio.
+
+## Puntos de intervención (5 estrategias, antes/durante una reunión difícil)
+1. **Selección de la situación**: decidir si entrar a la reunión o pedir
+   reprogramarla si no es el mejor momento o falta información.
+2. **Hablar aparte** con la persona clave antes de la reunión formal, para llegar con
+   contexto.
+3. **Enfocar la atención** solo en los temas que realmente importan del escenario.
+4. **Reevaluación** (estrategia positiva): no atacar el modelo/propuesta
+   directamente, sino entender su alcance real para el área/compañía.
+5. **Supresión** (no recomendada): aguantarse toda la reunión sin decir nada.
+
+## Conducir una conversación difícil
+**"No se gana con argumentos"** — presentar más datos no mueve a nadie si el problema
+de fondo no es técnico.
+
+Técnicas recomendadas para abrir la conversación:
+- **Nombrar** lo observado sin juzgar: "noto que en las últimas dos reuniones tu área
+  no ha intervenido."
+- **Indagar** la preocupación real: "¿qué es lo que más te preocupa de que esto
+  avance así?"
+- **Reencuadrar**: mostrar el problema desde otro ángulo ("el problema no es el
+  modelo, es quién responde cuando falle").
+- **Dar participación**: involucrar a quien se siente excluido en la definición de
+  criterios ("te sirve que tu equipo defina los criterios de excepción").
+
+Contraejemplos a evitar: diagnosticar al otro ("usted está a la defensiva"), preguntar
+retóricamente para acorralar/persuadir ("¿usted sabe cómo nos fue con el
+entrenamiento del modelo?"), minimizar la preocupación ("eso no es para tanto,
+tranquilo"), o cerrar con buena voluntad genérica vacía ("esto va a salir muy bien")
+sin compromisos concretos.
+
+**Un acuerdo verificable necesita, como mínimo: quién, qué y cuándo** — igual que un
+acta de compromisos bien hecha.
+
+## Cierre del tema: "resistencia al cambio"
+No basta con nombrar la resistencia — hay que preguntar: ¿resistencia a qué
+exactamente?, ¿de quién?, ¿por qué motivo? Detrás de la resistencia casi siempre hay
+algo puntual (miedo a perder el puesto, pérdida de identidad experta, pérdida de
+control), no una oposición genérica al cambio en sí.
+
+## Próxima clase
+Liderazgo creativo (tema 2 del syllabus).

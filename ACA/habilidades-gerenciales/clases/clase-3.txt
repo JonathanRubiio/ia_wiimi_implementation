@@ -1,0 +1,179 @@
+CLASE 3 — Habilidades Gerenciales (Tema 2: Creatividad Estratégica)
+
+## Logística relevante
+- El ACA (trabajo grupal) se publica esta semana; entrega del ACA 1 a más tardar el
+  1 de noviembre. Solo recibe nota quien aparece en la portada/grupo (se reitera la
+  regla ya vista en clase 1).
+- El quiz anterior cubrió solo tema 1 (inteligencia emocional).
+
+## Contexto: por qué creatividad "estratégica" y no solo creatividad
+Estamos en la cuarta revolución industrial (concepto del Foro de Davos 2015):
+impresoras 3D, drones, IA, nube, realidad virtual/aumentada, robótica. Estas
+tecnologías aceleraron la velocidad de entrega de productos/servicios (de meses a
+semanas o días para un MVP), lo que exige a los profesionales ejercitar habilidades
+gerenciales para no quedarse atrás.
+
+Tener ideas no es lo mismo que generar algo rentable y que genere valor — de ahí la
+necesidad de la **creatividad estratégica**, no la creatividad pura.
+
+## ¿Y si el problema no fuera falta de ideas?
+A veces el obstáculo real no es la falta de ideas sino: falta de presupuesto, falta de
+disposición, o falta de espacio/cultura organizacional para desarrollarlas. Conceptos
+mencionados: áreas de I+D dedicadas, y el **"tanque de ideas"** — un espacio donde
+cualquier persona de la empresa puede aportar ideas sobre temas específicos, que luego
+se priorizan y materializan con un proceso definido.
+
+## Caso Lego — crisis y recuperación
+**Crisis (años 90)**: llegaron videojuegos y computadores, diversificando el mercado
+del entretenimiento infantil. La respuesta inicial de Lego fue dar libertad creativa
+total a los diseñadores: pasaron de ~7.000 piezas únicas a más de 12.400 piezas
+exclusivas → **"complejidad insostenible"**: colapsó la cadena de suministro y se
+multiplicaron los costos de producción/almacenamiento. Además crearon líneas que se
+alejaban de su propuesta de valor (figuras casi prearmadas, sin ensamblaje real) →
+**pérdida de identidad**. También invirtieron en negocios intensivos en capital que no
+sabían operar (ropa infantil, videojuegos, parques Legoland) → **diversificación sin
+experiencia** → desangró recursos → crisis de más de 1.000 millones de coronas
+danesas.
+
+**Recuperación (2004, nuevo gerente)**, en dos pasos:
+1. **"Detener la hemorragia"**: vender activos no esenciales (incl. Legoland),
+   reducir nómina, reducir a la mitad el número de piezas únicas, simplificar
+   logística y costos de inmediato.
+2. **"Volver al núcleo"**: reenfocarse en el ladrillo clásico y el sistema de juego
+   (Lego City, Bionicle), potenciar franquicias bajo licencia (ej. Star Wars), y crear
+   **"LEGO Ideas"** — concursos donde los usuarios proponen y validan diseños antes de
+   fabricar, lo que permite tener éxito/rentabilidad proyectada **antes** de producir.
+
+### Cuatro lecciones extraídas del caso Lego
+1. **Innovación dentro de los límites**: la creatividad absoluta sin restricciones
+   destruye valor. Los diseñadores fueron más creativos cuando se les obligó a
+   trabajar con un catálogo limitado de piezas estándar, en vez de crear una pieza
+   nueva para cada idea.
+2. **No confundir diversificación con innovación**: para Lego, hacer relojes o
+   videojuegos no era innovar en su producto, era diluir la marca. El pensamiento
+   estratégico exige innovar en aquello en lo que uno ya es mejor, no perseguir
+   tendencias ajenas.
+3. **Complejidad rentable**: toda idea creativa necesita viabilidad operativa y
+   logística — si no la tiene, no es estrategia, es "arte no rentable".
+4. **Tercerizar el riesgo creativo**: el mejor talento creativo no siempre está en la
+   nómina; dar herramientas a los usuarios para proponer/validar diseños (como LEGO
+   Ideas) elimina el riesgo de "adivinar" qué quiere el mercado.
+
+## Innovar más vs. innovar con foco
+Ejercicio bancario: crear una app separada por cada función (cuenta, tarjetas,
+billetera) parece innovación ("innovar más"), pero fragmenta la experiencia del
+usuario (confusión, varias apps con el mismo nombre en la tienda). La alternativa es
+consolidar en una **Super App** (ejemplo citado: DiDi unificó pedir carro y domicilios
+en una sola app). Lección: una cosa es innovar más, otra es innovar **con foco**.
+
+## ¿Qué mata una idea antes de que nazca?
+- **Miedo**: al fracaso, a que no escuchen la idea, al cambio (salir de la zona de
+  confort), a que alguien se apropie de la idea.
+- **Indecisión** ("parálisis por análisis"): no confiar en la idea o en la propia
+  capacidad, darle muchas vueltas sin concretar, falta de seguridad personal.
+
+Ejemplo dado en clase: profesionales no técnicos (ej. abogados) que se capacitaron en
+IA y se rodearon de personas técnicas (en vez de intentar volverse ingenieros)
+lograron materializar productos/servicios de IA desde su propio dominio (legal) sin
+tener las competencias técnicas completas — suplieron su debilidad con el equipo
+correcto.
+
+## Creatividad, innovación y estrategia: la distinción central de la clase
+- **Creatividad**: generar ideas/alternativas nuevas (el primer paso, el momento de
+  pensar).
+- **Innovación**: materializar/aplicar esas ideas (ej. vía design thinking, sprints de
+  diseño). Una idea sin aplicar sigue siendo creatividad, no es innovación todavía.
+- **Estrategia**: materializar la idea de forma que genere **valor de negocio** real
+  (ej. consolidar varias apps fragmentadas en una Super App).
+
+### Cuatro filtros para una idea (habilitan, no bloquean)
+1. **Valor**: ¿a quién le mejora algo?
+2. **Alineación**: ¿por qué ahora? ¿por qué esto y no otra cosa? (ej. ¿por qué
+   necesariamente debe ser un chatbot con IA y no una automatización simple?)
+3. **Con qué contamos**: inventariar lo que ya se tiene antes de salir a buscar
+   herramientas externas (ej. Jira y Salesforce ya traen automatización interna; la
+   suite de Office empresarial trae Power Automate/Power Platform — antes de ir a
+   n8n/Make/Zapier, verificar si ya hay algo disponible internamente, y si
+   realmente se necesita un modelo de IA para el proceso en cuestión).
+4. **Evaluación de impacto**: qué otros procesos se alteran al implementar la
+   solución (ej. automatizar un proceso puede romper un flujo que otra área, como
+   contabilidad, dependía de la forma anterior de trabajar) — anticipar esto reduce
+   el miedo/incertidumbre de quienes se ven afectados.
+
+## Reformular preguntas cerradas en preguntas que habilitan pensar
+Ejemplo: "¿cómo evitamos que los estudiantes abandonen?" (cerrada, pone en alerta/a la
+defensiva) vs. "¿qué impide que más estudiantes puedan continuar?" (misma situación,
+pero habilita a pensar en soluciones en vez de en bloqueos).
+
+## Divergencia vs. convergencia
+Ejercicio del clip de papel: listar usos alternativos de un clip (sacar la SIM del
+celular, resetear un dispositivo, destapar un envase, antena improvisada, etc.) —
+ilustra la **divergencia** (abrir el abanico de posibilidades). La **convergencia** es
+elegir cuál de esas opciones aplica realmente al proyecto concreto.
+
+Aplicado al dominio de IA: existe un catálogo enorme de herramientas de automatización
+y orquestación de agentes (n8n, Make, Zapier, Power Automate, CrewAI, LangChain, los
+distintos LLM licenciados u open source). Quedarse en la divergencia (parálisis por
+exceso de opciones, comparando indefinidamente precios/tokens/capacidades) bloquea el
+avance. La salida es la **convergencia vía benchmarking**: comparar proveedores
+concretos contra el caso de uso puntual (se le puede pedir esto a la IA misma: "dame
+un cuadro comparativo de 4-5 proveedores para X propósito") y decidir, aunque la
+solución elegida solo cubra ~70-80% de lo que se imaginaba idealmente.
+
+Modelo del Design Council citado: dos espacios en el proceso creativo — **espacio del
+problema** (descubrir, definir — divergencia) y **espacio de la solución**
+(desarrollar, entregar, probar — convergencia).
+
+## Ejercicio: "¿y si el cliente nunca fuera a la oficina?"
+Alternativas generadas en clase para atender sin visita presencial: oficina virtual
+con videollamadas + chatbot de respaldo fuera de horario; app/web de trámites y pagos;
+atención a domicilio con seguimiento en tiempo real; modelo "app-first" tipo banco
+digital (ejemplo real citado: **Nubank**, disrupción total del modelo bancario
+tradicional, acelerada por la pandemia); puntos aliados/corresponsales (modelo
+Bancolombia); página web con carrito y envío a domicilio; agente de IA conversacional;
+simulador virtual. Incluso se mencionó, como ejercicio de pensar sin límites (a
+propósito de la noticia del carro volador de Elon Musk), la idea de un **holograma**
+que proyecte al dueño de la empresa de cuerpo entero ante el cliente — tecnología que
+hoy es parcial, pero ilustra "pensar fuera de la caja" sin descartar la idea solo por
+no ser usual todavía.
+
+## Ejercicio de los 9 puntos (unir sin levantar el lápiz)
+Solo se logra saliendo de un cuadrado imaginario que el ejercicio nunca impuso como
+regla — el límite estaba autoimpuesto, no en las condiciones reales. Pregunta de
+cierre: **"¿qué cuadrado existe en tu empresa solo porque nadie lo cuestiona?"**
+
+## Caso real del profesor: autogestión de viajes corporativos
+Proceso tradicional: empleado llena formulario → ticket a compras → analista cotiza
+manualmente en varios portales de aerolíneas → cuadro comparativo en Excel →
+empleado elige → compras ejecuta. Le pidieron "automatizar ese proceso". En vez de
+automatizar el proceso tal cual, propuso un **portal de autoservicio conectado por
+API a los proveedores** (estilo Kayak) donde el empleado mismo compara y elige, y
+compras solo ejecuta la compra final — sin esperar al comparativo manual. Lección:
+antes de automatizar un proceso, preguntarse si el proceso mismo debería rediseñarse,
+no solo acelerarse. Requirió más trabajo técnico y tiempo, pero generó una solución
+cualitativamente distinta (y fue la opción que la empresa finalmente eligió).
+
+## Frases que abren o cierran la creatividad de un equipo
+- Abre: **"Muéstrame cómo lo probaríamos sin arriesgar todo"** (habilita probar vía
+  POC/sandbox/entorno de pruebas sin tocar producción).
+- Cierran: "Eso aquí nunca ha funcionado" / "La decisión está tomada, necesitamos que
+  usted ejecute" (bloquean la iniciativa del equipo).
+Relevante para quien lidera personas: dar espacio a probar bajo condiciones
+controladas mantiene vivo el pensamiento creativo del equipo.
+
+## Ciclo de creatividad estratégica en 5 pasos (síntesis de la clase)
+1. **Reencuadrar**: cambiar la perspectiva ("las gafas") con las que se ve la
+   situación.
+2. **Divergencia**: abrir el abanico de posibilidades.
+3. **Convergencia**: elegir y reducir hasta la opción viable.
+4. **Despliegue**: pasar de creatividad a innovación a estrategia (aplicar y decidir
+   cuándo/cómo).
+5. **Retroalimentación**: evaluar qué pasó con lo desplegado y ajustar.
+
+## Cierre
+Tarea personal propuesta: identificar un **supuesto** no cuestionado en la propia
+empresa (algo que se hace "porque siempre se ha hecho así") y aplicar
+creatividad→innovación→estrategia para plantear una alternativa.
+
+## Próxima clase
+Liderazgo para el siglo XXI (tema 3 del syllabus).

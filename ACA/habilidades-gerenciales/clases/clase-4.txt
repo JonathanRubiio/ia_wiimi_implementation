@@ -1,0 +1,186 @@
+CLASE 4 — Habilidades Gerenciales (Tema 3: Liderazgo para el Siglo XXI)
+
+## Apertura: ¿qué es innovación? ¿copiar es innovar?
+Discusión inicial: innovación no es solo crear algo desde cero — es mejorar algo que
+ya existe, siempre que genere valor (ej. pasar de reloj análogo mecánico a automático
+sí es innovación porque mejora el producto; un reloj "flotante en holograma" sería
+directamente un invento/salto mayor).
+
+¿Copiar es innovar? Depende. Adaptar una práctica o política de otra empresa a la
+propia, si realmente aporta valor, sí puede considerarse innovación aplicada. Pero
+**copiar abaratando calidad para reducir costos no es innovación si sacrifica la
+necesidad técnica real del proyecto**. Ejemplo real de ingeniería civil (aeropuerto
+Aerocafé, Palestina-Caldas): existen barras autoperforantes alemanas de alta calidad
+para estabilización de terrenos, y copias chinas/brasileras más baratas pero de menor
+calidad; adoptar la opción barata puede comprometer la estabilidad del proyecto a
+largo plazo. **Abaratar costos no sustituye el cumplimiento de la necesidad técnica.**
+
+## Contexto: por qué este tema ahora
+El mercado exige cada vez más velocidad de entrega (de meses a semanas o días),
+asociando esa velocidad con estar "a la vanguardia". Esto presiona tanto a los
+equipos como a quienes los lideran. Se menciona el fenómeno de startups "unicornio"
+que consiguen financiación por su capacidad de generar MVPs rápido y adaptarse al
+mercado de forma disruptiva.
+
+## Caso Lego (retomado): ¿qué tenía el nuevo líder que no tenía el anterior?
+Competencias identificadas en la discusión de clase: capacidad de leer el mercado y
+las necesidades/gustos del público; objetivos claros desde el inicio; capacidad de
+entender la volatilidad y los grandes cambios; habilidad de negociar/persuadir (para
+lograr alianzas de licencia como Star Wars). **Lo que el profesor resalta como más
+crucial**: la habilidad de **ejecutar** lo que se tiene en mente — no basta tener
+claridad mental y estrategia; hay que saber en qué momento cerrar, abrir o impulsar
+iniciativas, y sobre todo saber **"impregnar" la visión en el equipo** para que todos
+se alineen hacia el mismo objetivo, con la velocidad y la calidad que el líder busca.
+
+## Experiencias reales: liderar en crisis con poca información y poco tiempo
+Patrón común identificado en los casos compartidos en clase:
+- **Consultor de telecomunicaciones**: llegó a un proyecto sin área de calidad, con
+  demandas legales pendientes, y un equipo que no confiaba en el liderazgo anterior
+  (se sentían abandonados). Estrategia: ganarse la confianza del equipo demostrando
+  conocimiento técnico y trabajando codo a codo con ellos, usando metas por sprint
+  (story points). Logró el objetivo (automatizar el 30% de la plataforma en 3 meses).
+- **Administrador en sector salud** (coordinación de activos fijos, +120 sedes a
+  nivel nacional): llegó a un área con 6 años sin inventario, ~4.900 solicitudes
+  represadas y solo 2 personas de equipo. Estrategia en orden: (1) diagnóstico rápido
+  (3 semanas) de cuellos de botella y recursos disponibles; (2) presentó ese
+  diagnóstico a gerencia pidiendo recursos concretos (personal, tecnológico,
+  económico); (3) priorizó resolver primero el represamiento local antes de escalar a
+  nivel nacional; (4) estableció un cronograma con fechas concretas para el inventario
+  nacional completo (~170.000 activos).
+
+**Lección general**: el patrón repetido es **diagnóstico primero** (saber qué hay y
+qué falta) antes de construir cualquier plan de choque. Y más que saber qué hacer, lo
+crucial es saber **ejecutar estratégicamente dentro del tiempo definido**, incluso con
+la incertidumbre de no saber si el cliente/equipo va a dar otra oportunidad o espera
+que la persona falle. Esto conecta con el concepto de **ambidestreza** (ver más abajo).
+
+## Caso Nokia (profundizado)
+El equipo técnico de Symbian detectaba problemas, pero el liderazgo operaba con la
+premisa **"no me traiga problemas, tráigame soluciones"** — bien intencionada (busca
+fomentar creatividad y autonomía), pero con un filo negativo: bloqueaba el simple
+reporte abierto de un problema. Resultado: el equipo dejó de hablar, los problemas se
+acumularon como una burbuja hasta que explotó. El análisis posterior encontró que el
+liderazgo no escuchaba a su equipo ni permitía tratar un problema como oportunidad de
+mejora.
+
+**Alternativa propuesta en clase**: cambiar la premisa por **"¿qué alternativas has
+considerado?"** — abre la conversación y permite reportar el problema sin bloquearlo,
+a la vez que invita a pensar en soluciones.
+
+## Caso Microsoft (profundizado)
+Cultura previa: competencia malsana entre empleados (brillar más que el otro, pisarse,
+basada en credenciales/diplomas). Cambio con Satya Nadella: filosofía de **"más que
+saberlo todo, seamos ambiciosos en aprenderlo todo"** — orientada a la curiosidad
+ejecutiva y la exploración; el error se trata como oportunidad de mejora o como
+revelación de una falla de diseño previa, no como motivo de castigo. Resultado citado:
+**6.5x de multiplicación del valor de Microsoft** tras eliminar el sistema de
+evaluación punitiva (2014).
+
+## Evolución histórica de las posturas de liderazgo (marco central de la clase)
+1. **Era clásica/científica** (~1900 — Taylor, Henry Ford): "teoría del gran hombre"
+   / mando y control. Líder "héroe" nato e infalible. Estructura piramidal: unos
+   piensan, otros ejecutan, otros supervisan.
+2. **Era conductual / relaciones humanas** (~1930): surge el reconocimiento de que
+   "el líder nace, pero también se hace" (concepto de ascenso, formación de líderes).
+   Se empieza a atender el bienestar del trabajador y el equilibrio persona-trabajo.
+3. **Era situacional** (~1975 — Hersey y Blanchard, teoría de Fiedler): rompe el mito
+   del "estilo único ideal". La eficacia del líder se mide según cómo se desenvuelve
+   en la situación concreta y según su **flexibilidad** para adaptarse a escenarios
+   cambiantes (no "siempre he trabajado así, para qué cambiar"). Ya no se asume al
+   líder como infalible.
+4. **Era emocional / transformacional**: liderazgo transaccional (premios/castigos,
+   Bernard Bass) vs. liderazgo transformacional (visión + inspiración transmitida al
+   equipo, James McGregor Burns). Daniel Goleman consolida la inteligencia emocional
+   (años 90): autoconciencia, autorregulación y empatía del líder impactan el clima
+   organizacional **y los resultados financieros**. Surgen las "habilidades blandas"
+   y los tests/pruebas psicotécnicas de liderazgo.
+5. **Era ágil (actual, siglo XXI)**: liderazgo **servicial** (el líder al servicio del
+   equipo), **seguridad psicológica**, y la gestión de **sistemas agénticos de IA**
+   como parte de las competencias del líder — no necesariamente programarlos, pero sí
+   saber integrarlos al equipo, cuándo retirarlos por obsolescencia, y cómo potencian
+   (sin remplazar) la gestión de personas.
+
+## Seguridad psicológica
+Creación de entornos que permiten cuestionar, reportar riesgos y experimentar sin
+temor a represalias. **Sin seguridad psicológica, la agilidad y la innovación se
+quedan en lo meramente enunciativo** (se dice que se quiere innovar, pero no se
+practica realmente).
+
+## Ambidestreza organizacional
+Capacidad de gestionar simultáneamente dos velocidades:
+- **Explotar el presente**: optimizar eficiencia, calidad y rentabilidad del negocio
+  actual.
+- **Explorar el mañana**: visión y estrategia a futuro.
+
+Conexión directa con el caso Lego: el nuevo CEO tenía ambas capacidades a la vez.
+Metáfora usada: "si no sé a dónde voy, no sé qué necesito empacar en la maleta" (playa
+vs. Antártida). El presente no debe tratarse como un fin en sí mismo, sino como un
+punto de conexión con la exploración del futuro — y ambas dimensiones se conectan hoy
+simbióticamente con la inteligencia artificial.
+
+## Liderazgo aumentado
+Integración de analítica avanzada e IA para procesamiento de información y
+automatización de flujos de liderazgo, reservando para el líder humano la función de
+**decidir**. Relevante: los procesos de una organización tienen niveles (estratégico,
+táctico, de apoyo) — un proyecto que impacta procesos de **nivel estratégico** exige
+mayor exactitud en los datos, porque una falla en la toma de decisiones ahí puede
+desencadenarse en cascada hacia los niveles inferiores.
+
+Ejemplos reales de uso de IA en liderazgo compartidos en clase: alguien que usa IA en
+desarrollo de software pero nunca delega decisiones importantes — la IA "consulta"
+con la persona antes de aplicar cualquier cambio, nunca al revés; otro que usa IA para
+hacer sondeos técnicos (vulnerabilidades, escalabilidad) y generar comparativos que
+apoyan la decisión final sobre un nuevo proyecto (ej. historias clínicas).
+
+## Casos de éxito y de fracaso (cuadro resumen de la clase)
+**Éxito**: Microsoft, Lego (vueltos al núcleo), y **Patagonia** — caso nuevo: el
+liderazgo anterior no tenía una visión clara ni la comunicaba al equipo, generando
+incertidumbre y proyectos que se empezaban pero no se terminaban. El cambio de
+liderazgo se centró en **enfocar y comunicar esa visión de forma coherente a todos**,
+lo que dio seguridad, claridad de rumbo, y liberó la proactividad del equipo.
+
+**Fracaso**: Nokia (visto arriba) y **Blockbuster** — modelo de alquiler físico de
+películas (VHS/Betamax, luego DVD), con tiendas físicas y multas por demora.
+Blockbuster no vio el potencial de streaming por internet que sí vieron los
+fundadores de Netflix, y quebró; en paralelo, las tiendas de alquiler de videojuegos
+fueron reemplazadas por plataformas digitales (Xbox, PlayStation).
+
+**Lección central**: el liderazgo del siglo XXI debe **explorar el futuro
+activamente**, no esperar a que "el futuro llegue". Ejemplos de ideas "futuristas" que
+ya son técnicamente posibles hoy, mencionados en clase: tecnología holográfica para
+reuniones/atención al cliente, probadores virtuales con visión artificial en tiendas
+de ropa (escaneo corporal + superposición de la prenda sin necesidad de probársela), e
+interacción por voz/gestos en vez de teclado físico.
+
+## Cuatro puntos de autodiagnóstico de liderazgo (tarea para la siguiente sesión)
+1. **¿Qué riesgo oculto nadie ha mencionado?** — revisar los propios equipos/proyectos
+   actuales con esa pregunta.
+2. **Definir el resultado esperado sin microgestión** — cuestionar la necesidad de
+   "estar viendo" constantemente al equipo: ¿es por seguridad real sobre el avance, o
+   por estar orientado a tareas en vez de a objetivos, por costumbre operativa
+   heredada del siglo XX?
+3. **Ante un error operativo: sustituir "buscar culpables" por "documentar
+   aprendizajes"** — desafío particular cuando el cliente presiona para señalar un
+   responsable o pide remover a alguien del equipo (dinámica común en servicios BPO);
+   hasta qué punto el líder puede/debe respaldar a su equipo frente a esa presión
+   externa.
+4. **Reservar tiempo personal para actualización de competencias** — no solo
+   certificaciones formales, sino el hábito de leer papers o posturas actuales del
+   mercado (ejemplo citado en clase: el acuerdo de autorregulación de IA firmado por
+   grandes fabricantes, con respaldo público de Donald Trump, ~15 días antes de esta
+   clase).
+
+## Cierre
+Pregunta de cierre: **"¿qué hábito del siglo XX vamos a soltar realmente?"** (no
+porque haya sido malo, sino porque ya no conecta con lo que hoy se demanda). El
+profesor comparte su propio uso de IA: principalmente para prototipado (Figma) y para
+generar cifras de ROI (sobre todo ROI cuantitativo orientado a reducción de costos),
+ganando velocidad frente a la presión real del mercado (MVP en 3 semanas, POC en 1
+semana) — reconoce que el líder absorbe esa presión, pero debe trasladar parte de ella
+al equipo de forma que se mantengan conectados con la visión, no solo abrumados por
+la exigencia de tiempo.
+
+## Próxima clase / entregables
+El ACA 1 (grupal) ya está activo; la sustentación es presencial/sincrónica y ocurre
+**después** de la entrega del documento escrito, para que el profesor pueda leerlo
+primero.

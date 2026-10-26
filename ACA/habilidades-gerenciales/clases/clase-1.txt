@@ -1,0 +1,114 @@
+CLASE 1 — Habilidades Gerenciales (inducción)
+Profesor: Carlos Andrés Piraquive Cifuentes (ingeniero de sistemas, +15 años en TI;
+gerencia de proyectos de software, automatización de procesos, IA predictiva y
+generativa, auditorías ISO 401).
+
+## Enfoque de la materia
+"Habilidades Gerenciales" en esta especialización no se dicta como un curso de
+liderazgo genérico, sino orientado al contexto de adopción de inteligencia artificial
+en las organizaciones. Tres ejes centrales que recorren todo el curso:
+diagnosticar → conducir → intervenir.
+
+## Contenido (5 temas del syllabus)
+1. Inteligencia emocional
+2. Liderazgo creativo
+3. Liderazgo para el siglo XXI (estilos de liderazgo según el contexto)
+4. Trabajo en equipo y resolución de conflictos (diferenciar "problema" de "conflicto")
+5. Actitud proactiva, creatividad, mentalidad emprendedora
+
+Resultado de aprendizaje: desarrollar estructura gerencial, asertividad y empatía para
+potencializar las dimensiones humanas del equipo de trabajo, orientado a una
+gerenciación efectiva.
+
+## Marco conceptual introducido (diagnosticar)
+Cuando una empresa adopta IA, las personas suelen sentir amenaza, ansiedad, temor o
+incertidumbre (miedo a ser reemplazadas). Si quien toma decisiones no identifica su
+propio estado emocional ni el del equipo, puede bloquear proyectos válidos o, al
+contrario, imponerlos sin gestión del cambio.
+
+Motivación empresarial predominante para adoptar IA (según la experiencia del
+profesor en ~15-17 levantamientos de información): en la mayoría de los casos (13-14
+de 17) la empresa busca un ROI **cuantitativo** (reducción de costos / reducción de
+personal), no un ROI **cualitativo** (optimización de procesos, mayor velocidad). La
+inteligencia emocional es la habilidad que permite diagnosticar la motivación real de
+la empresa y gestionar el cambio con los afectados antes de que la gerencia decida
+reducir personal.
+
+Pregunta disparadora para el tema 1 (inteligencia emocional): un comité de 8 personas,
+9 segundos de silencio, tres semanas de proyecto perdidas — nadie dijo nada pero el
+acta registró "aprobación unánime". Se trabajará con referentes como Daniel Goleman.
+
+## Evaluación de la materia
+- Quiz: 5-10 preguntas, cubre temas 1 y 2, calificación automática. Abre el domingo de
+  esta semana, cierra domingo 11 de octubre 11:59 p.m.
+- ACA 1: 30% de la nota.
+- ACA 2 ("AK final"): 32% de la nota.
+- Autoevaluación: 4%. Coevaluación: 4%.
+- Recomendación explícita del profesor: hacer las cuatro entregas (quiz + 2 ACA +
+  auto/coevaluación) aunque el peso acumulado ya alcance para pasar — dejar una de
+  lado ha hecho reprobar a estudiantes en cohortes anteriores.
+
+## Rúbrica de calificación
+5 criterios estándar, iguales para todos los grupos (evita subjetividad). El último
+criterio es "calidad del trabajo": incluye normas APA, presentación, tablas, imágenes
+y desarrollo del contenido. El profesor retroalimenta cada criterio individualmente y
+además da una retroalimentación global del trabajo.
+
+## Trabajo en grupo
+- Grupos de 3 a 5 personas, todas inscritas en esta misma materia con este profesor.
+- Se califica al grupo completo: todos los que aparecen en la portada reciben la
+  misma nota (el profesor se guía por la portada, no por quién trabajó realmente).
+- Plazo para conformar grupos en la plataforma: hasta el 11 de octubre.
+- Trabajo individual solo se autoriza en casos atípicos, mediante solicitud escrita a
+  la coordinación académica del programa.
+
+## Contenido de los ACA (caso real, distinto por grupo — no se puede copiar entre grupos)
+- **ACA 1**: cada grupo recibe un "frente" de una organización que ya opera con
+  decisiones asistidas por IA. El caso retrata personajes con distintas reacciones
+  emocionales ante la llegada de la tecnología (tristeza, incertidumbre, apatía,
+  amenaza de renuncia, etc.). El trabajo consiste en **diagnosticar** la situación
+  usando inteligencia emocional.
+- **ACA 2**: continuación directa del caso del ACA 1. El foco pasa a **conducir** el
+  conflicto generado por la inclusión de la tecnología sin previo aviso. Ejemplo real
+  dado en clase: una clínica implementó una automatización con IA para historias
+  clínicas sin avisar primero a la persona encargada de ese proceso; ella reaccionó
+  protegiendo su empleo y escaló el conflicto hacia los jefes, hasta que estos
+  aclararon que no la iban a reemplazar sino que trabajaría junto a la IA como
+  asistente. En el ACA 2 se trabaja la diferencia entre **problema** y **conflicto**
+  y cómo intervenir/conducir ese tipo de reacciones.
+
+## Sustentación (criterio adicional de la rúbrica)
+Sustentación oral de ~7 minutos por grupo, en horario asignado, para verificar que el
+grupo domina los conceptos (evita que el trabajo se haya hecho completo con IA sin
+apropiación real del contenido por el equipo).
+
+## Normas APA y uso de IA (obligatorio, "innegociable")
+- Los ACA se entregan en normas APA versión 7 (norma cargada en la plataforma C
+  Digital).
+- Citar ≠ declarar. Si se usa IA para redactar un párrafo, generar una imagen, tabla o
+  mapa conceptual, debe citarse en el texto y en la sección de referencias según la
+  norma APA (existe una sección específica de APA 7 para citar el uso de IA).
+- Además de las citas, se entrega un **anexo "Declaración de uso de la inteligencia
+  artificial"** (lo suministra el profesor junto con el documento del ACA): listar
+  cada herramienta de IA usada (GPT, Gemini, Claude, Grok, DeepSeek, etc.), para qué
+  se usó cada una (imágenes, tablas, corrección de estilo, investigación del tema,
+  etc.) y cómo se utilizó el resultado (no solo el objetivo que cubría) — el grupo se
+  hace responsable del contenido generado con IA que quede consignado en el trabajo.
+
+## Entrega y canales
+- Todo se sube únicamente a la plataforma **C Digital** (no se reciben trabajos por
+  correo ni por otro canal). La nota se consolida en SINU al cierre de la materia
+  (22-24 de noviembre).
+- C Digital centraliza: carga de ACA, quiz, normas APA, grabaciones de cada clase y
+  las presentaciones usadas en cada tema.
+- Canal adicional para avisos y preguntas genéricas: chat grupal en Google Space.
+
+## Metodología de clase del profesor
+Caso real → pregunta problema → teoría → ejercicio práctico interactivo en vivo.
+Ocasionalmente deja actividades de investigación livianas (2-3 preguntas) para
+alimentar la siguiente clase con lo que los estudiantes encuentren.
+
+## Calendario
+Corte inició el 28 de septiembre, cierra el 22 de noviembre (última clase: viernes 20
+de noviembre). Dentro del calendario hay dos sesiones reservadas para sustentación de
+ACA.
