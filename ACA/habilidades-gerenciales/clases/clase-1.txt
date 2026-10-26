@@ -1,3 +1,6 @@
+Identificador de clase: 2026-10-02 (inferida: clase-2 dice explícitamente "el viernes
+anterior iniciamos con inducción", y clase-2 es 2026-10-09 confirmado)
+
 CLASE 1 — Habilidades Gerenciales (inducción)
 Profesor: Carlos Andrés Piraquive Cifuentes (ingeniero de sistemas, +15 años en TI;
 gerencia de proyectos de software, automatización de procesos, IA predictiva y
