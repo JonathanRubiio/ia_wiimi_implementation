@@ -1,0 +1,56 @@
+GUION — Jonathan Adonay Rubio Jimenez
+ACA 1 — IA para la Transformación Digital en Sectores Productivos
+Hablas DOS veces: abres el video (diapositiva 1) y luego presentas tu sección
+(diapositivas 4 y 5). Tiempo total aproximado: ~115 segundos.
+
+=====================================================================
+PARTE 1 — APERTURA (diapositiva 1) — ~25-30 segundos
+=====================================================================
+
+"Hola, buenas noches. Mi nombre es Jonathan Rubio y junto con mis compañeros Jhoan
+Cardozo, Daniel Silva, Yeimis Urzola e Ivan Zarate, formamos el grupo 3 del curso
+IA para la Transformación Digital en Sectores Productivos.
+
+En este video les vamos a presentar el ACA 1: el diseño de un ecosistema de
+inteligencia artificial empresarial para Bienestar Integral S.A.S., una pyme del
+sector salud estética, usando Apollo Services, el CRM comercial multicanal con IA
+que venimos desarrollando como proyecto propio.
+
+Vamos a recorrer el problema, la solución, la arquitectura, los riesgos, los costos
+y la supervisión humana del sistema. Empezamos."
+
+[Transición: cede la palabra a Jhoan para el problema organizacional y el sector
+económico]
+
+=====================================================================
+PARTE 2 — SOLUCIÓN DE IA + ARQUITECTURA DEL ECOSISTEMA (diapositivas 4 y 5)
+~85-90 segundos
+=====================================================================
+
+"Gracias, Jhoan. Ahora les cuento cuál es la solución que proponemos.
+
+Es Apollo Services, nuestro CRM comercial multicanal con agentes de IA. Para
+Bienestar Integral lo desplegamos con tres de sus seis módulos independientes: M1,
+la bandeja unificada; M2, el agente que responde y clasifica a los pacientes
+potenciales; y M6, el agente que agenda la cita y le hace seguimiento al cierre.
+
+M1 centraliza en un solo tablero las conversaciones de WhatsApp, Instagram y
+Facebook, para que el equipo deje de revisar cada red por separado. M2 atiende a
+todo el que escribe, lo clasifica como Seguidor o como Prospecto, y le recoge los
+datos que necesita la clínica —qué tratamiento le interesa, en qué sede, con qué
+disponibilidad. Y cuando esos datos ya están completos, M6 entra a coordinar la
+fecha con el paciente, la confirma con la Líder comercial, la agenda directamente
+en Google Calendar, y después de la cita hace seguimiento para registrar el
+resultado.
+
+Lo importante de la arquitectura —y lo pueden ver en la Figura 1— es que estos
+módulos nunca se llaman entre sí directamente. M6 no depende de que M2 lo invoque:
+simplemente observa cuándo cambia el estado en la base de datos compartida, y ahí
+arranca su propio proceso. Eso es lo que nos permite vender o activar M1, M2 o M6
+por separado, y que cada uno siga funcionando así el cliente no haya contratado
+todos los módulos.
+
+Con eso les paso la palabra a Daniel, que les va a contar qué tecnologías específicas
+soportan cada una de estas piezas."
+
+[Transición: cede la palabra a Daniel para tecnologías involucradas]

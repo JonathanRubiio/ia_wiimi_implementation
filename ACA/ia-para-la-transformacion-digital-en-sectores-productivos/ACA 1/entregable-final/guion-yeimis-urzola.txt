@@ -1,0 +1,37 @@
+GUION — Yeimis Urzola Torres
+ACA 1 — IA para la Transformación Digital en Sectores Productivos
+Presentas: Riesgos identificados (diapositiva 7).
+Tiempo aproximado: ~60-65 segundos.
+
+=====================================================================
+RIESGOS IDENTIFICADOS (diapositiva 7)
+=====================================================================
+
+"Gracias, Daniel. Soy Yeimis Urzola y les voy a contar los riesgos que
+identificamos para este ecosistema, y qué pensamos hacer con cada uno.
+
+Primero, hay una dependencia tecnológica de Meta: desde octubre de este año
+WhatsApp ya no es completamente gratis, así que a más pacientes, más costo por
+conversación. Lo vamos a manejar monitoreando ese consumo cada mes.
+
+Segundo, el riesgo de saturación: el sistema está pensado para unos cien
+prospectos al mes por cliente, así que si hay una campaña de descuentos con mucho
+más tráfico, puede que el servidor no aguante si no lo redimensionamos a tiempo.
+
+Tercero, los errores propios de la IA —alucinaciones o falsos positivos al
+clasificar a un paciente—. Por eso ninguna decisión final de agendamiento se toma
+sin que la Líder comercial la confirme.
+
+Cuarto, y este es el que más nos preocupó: la privacidad de los datos. Bienestar
+Integral maneja información de salud de sus pacientes, así que para este cliente
+en particular, cerrar la política de tratamiento de datos personales es
+prioritario antes de lanzar el sistema.
+
+También identificamos riesgo de latencia cuando llega una imagen, y el riesgo de
+manejar las credenciales de cada cliente de forma manual, que vamos a documentar
+bien mientras el número de clientes siga siendo pequeño.
+
+Le paso la palabra a Ivan, que les va a hablar del impacto en la organización, los
+costos y cómo supervisamos todo esto."
+
+[Transición: cede la palabra a Ivan para impacto + costos + supervisión humana + conclusiones]

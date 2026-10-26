@@ -1,0 +1,40 @@
+GUION — Jhoan Jesus Cardozo Gelvis
+ACA 1 — IA para la Transformación Digital en Sectores Productivos
+Presentas: Problema organizacional + Sector económico (diapositivas 2 y 3).
+Tiempo aproximado: ~65-70 segundos.
+
+=====================================================================
+PROBLEMA ORGANIZACIONAL + SECTOR ECONÓMICO (diapositivas 2 y 3)
+=====================================================================
+
+"Gracias, Jonathan. Mi nombre es Jhoan Cardozo y les voy a contar cuál es el
+problema que estamos resolviendo y en qué sector está la organización.
+
+Bienestar Integral S.A.S. es una pyme de salud estética, con sede en Bogotá y en
+Medellín. Su equipo comercial son solo tres personas, y atienden a los pacientes
+por tres canales al mismo tiempo: WhatsApp Business, Instagram y Facebook. El
+problema es que cada uno de ellos revisa cada red por su lado, sin ningún punto
+único donde ver todas las conversaciones juntas.
+
+Eso les genera tres problemas concretos: primero, hay pacientes que escriben y no
+reciben respuesta a tiempo, porque ningún canal tiene prioridad sobre otro. Segundo,
+no hay forma de distinguir rápido quién es solo un seguidor y quién es un paciente
+con intención real de agendar un tratamiento. Y tercero, las citas se acuerdan de
+palabra por el chat, pero nunca quedan confirmadas formalmente en una agenda
+compartida, entonces se pierden sin que nadie se dé cuenta a tiempo.
+
+Esto no es un problema técnico de ninguna de las plataformas que usan. Es un
+problema de negocio: están perdiendo oportunidades de venta por no tener un
+proceso ordenado.
+
+Por el sector: Bienestar Integral pertenece al sector servicios, específicamente
+salud estética —odontología estética, dermatología y nutrición—, con un modelo de
+venta que depende casi por completo de redes sociales. Es justamente el tipo de
+organización al que apunta Apollo Services: equipos comerciales pequeños que
+venden por redes, pero que no tienen cómo construir su propia infraestructura de
+inteligencia artificial.
+
+Le paso la palabra a Jonathan para que les cuente cuál es la solución que
+proponemos."
+
+[Transición: cede la palabra a Jonathan para solución de IA + arquitectura]

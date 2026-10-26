@@ -1,0 +1,35 @@
+GUION — Daniel Silva Quintero
+ACA 1 — IA para la Transformación Digital en Sectores Productivos
+Presentas: Tecnologías involucradas (diapositiva 6).
+Tiempo aproximado: ~55-60 segundos.
+
+=====================================================================
+TECNOLOGÍAS INVOLUCRADAS (diapositiva 6)
+=====================================================================
+
+"Gracias, Jonathan. Soy Daniel Silva y les voy a mostrar con qué tecnología
+específica se construye cada parte del ecosistema que acaban de ver.
+
+El canal de comunicación son WhatsApp Business, Instagram y Facebook, todos
+conectados por la misma Meta Cloud API, provisionada a través de 360dialog. Esa
+API es el puente que lleva el mensaje hasta n8n, que es nuestro motor de
+automatización, el que orquesta todo el flujo de M2 y M6.
+
+Para la parte conversacional usamos Claude como único modelo de IA —así
+mantenemos el mismo tono sin importar por qué canal escriba el paciente—, y Gemini
+Flash como una capa aparte, solo para convertir audio o imágenes a texto plano
+antes de que Claude los procese. Eso nos ahorra costo y evita errores.
+
+Toda la información se guarda en Supabase, que es nuestra base de datos
+compartida, con autenticación y almacenamiento incluidos. El agendamiento se
+conecta directo con Google Calendar vía OAuth2, generando el enlace de Meet
+automáticamente. Y la Líder comercial ve y reasigna todo desde la app en Next.js,
+sección M1.
+
+Toda esta infraestructura corre en un contenedor Docker dedicado solo para
+Bienestar Integral, sin compartir base de datos con ningún otro cliente de Apollo
+Services.
+
+Le paso la palabra a Yeimis, que les va a contar los riesgos que identificamos."
+
+[Transición: cede la palabra a Yeimis para riesgos identificados]

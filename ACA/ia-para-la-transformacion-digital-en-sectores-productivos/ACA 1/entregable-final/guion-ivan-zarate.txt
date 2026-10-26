@@ -1,0 +1,57 @@
+GUION — Ivan Dario Zarate Rincon
+ACA 1 — IA para la Transformación Digital en Sectores Productivos
+Presentas: Impacto organizacional + Costos generales estimados + Supervisión
+humana + Conclusiones (diapositivas 8, 9, 10 y 11) y cierras el video.
+Tiempo aproximado: ~95-100 segundos.
+
+=====================================================================
+IMPACTO ORGANIZACIONAL (diapositiva 8)
+=====================================================================
+
+"Gracias, Yeimis. Soy Ivan Zarate y voy a cerrar la presentación hablando del
+impacto, los costos, la supervisión humana y las conclusiones.
+
+Del lado positivo, el equipo comercial deja de revisar tres redes por separado, y
+la Líder gana visibilidad en tiempo real de quién no ha recibido respuesta. El
+agendamiento ya no depende de que alguien se acuerde de confirmar manualmente en
+un calendario compartido.
+
+Del lado que hay que vigilar: el rol del equipo cambia, de responder todo
+manualmente a supervisar lo que la IA ya adelantó, y eso puede generar resistencia
+si no se explica bien que el sistema no los reemplaza. Y aparece una dependencia
+nueva: si Meta, Claude o Google Calendar fallan, el proceso comercial se ve
+afectado directamente, algo que antes no pasaba.
+
+=====================================================================
+COSTOS GENERALES ESTIMADOS (diapositiva 9)
+=====================================================================
+
+En costos, no manejamos cifras exactas de facturación, sino los elementos que
+sabemos que pesan: el consumo de tokens de los modelos de IA, que es marginal al
+volumen de este cliente; el costo por conversación de WhatsApp después de superar
+los mensajes gratuitos del mes; la infraestructura en la nube, que es un costo fijo
+bajo por cliente; el almacenamiento, que solo crece si se guardan muchos adjuntos;
+y el calendario, que no tiene costo adicional.
+
+=====================================================================
+SUPERVISIÓN HUMANA (diapositiva 10)
+=====================================================================
+
+Sobre la supervisión humana: cada agente solo puede ejecutar funciones puntuales y
+auditables, ninguno tiene permiso de escribir libremente en la base de datos. Y la
+Líder comercial revisa y confirma cada conversación y cada cita antes de que quede
+en firme, así que un error de clasificación de la IA nunca llega solo hasta el
+paciente sin que alguien lo revise antes.
+
+=====================================================================
+CONCLUSIONES Y CIERRE (diapositiva 11)
+=====================================================================
+
+Para cerrar: este ecosistema no reemplaza al equipo comercial de Bienestar
+Integral, automatiza la parte repetitiva y deja que las personas se enfoquen en lo
+que la IA no puede hacer, que es la relación con el paciente. Y como Apollo
+Services está armado en módulos independientes, esta organización puede empezar
+con lo mínimo que presentamos hoy e ir sumando más módulos sin tener que rediseñar
+nada de lo que ya está construido.
+
+Muchas gracias por su atención, fue un gusto presentarles este trabajo."
