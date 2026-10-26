@@ -1,0 +1,134 @@
+Identificador de clase: 2026-10-19 (G3)
+
+CLASE 2 — Proyecto I (Profesora: María Fernanda Rivera Sanclemente, grupo G3)
+
+## Contexto de la sesión
+Primera media hora dedicada casi completamente a logística de conformación de grupos
+(varios estudiantes todavía sin grupo, dudas sobre a cuál de los dos grupos paralelos
+de la profesora — S2/S5 — pertenecen, cómo usar el Excel de registro de equipos). No
+aporta contenido nuevo sobre la materia en sí: reitera lo ya documentado en
+`clase-1.txt` (plazo 2026-10-23, grupos de 3 como ideal, registro en la plataforma vía
+"Registrar tu equipo"/Excel por grupo, chat del space para coordinarse con compañeros).
+Aclaración puntual nueva: cada estudiante solo ve el Excel de su propio grupo (S2 o S5)
+en la plataforma — no hay riesgo de cruzarse con el otro grupo al inscribirse.
+
+A partir de aprox. minuto 50 (línea ~627) la clase entra en contenido metodológico
+nuevo: cómo construir el **título**, la **descripción del problema** y la **pregunta
+de investigación** del anteproyecto — esto es la parte sustantiva de esta sesión.
+
+## Construcción del título
+
+- El título se trabaja preliminarmente desde ya (el Excel de registro pide un "título
+  preliminar"), pero se termina de afinar al final, cuando ya hay más información del
+  proyecto — es de las últimas secciones en cerrarse aunque sea la primera que se lee.
+- Importancia: es lo primero que lee cualquiera (igual que el título de un libro) — si
+  no es claro ni atractivo, nadie se interesa en leer el resto, y el documento queda en
+  el repositorio institucional sin que nadie lo consulte.
+- **Extensión recomendada: 21 palabras o menos** (contando artículos). Pasarse por
+  pocas palabras no es grave, pero esa es la meta.
+- **No lleva punto final** — no es una oración, es un contenido conciso.
+- Evitar jergas y abreviaturas, salvo que el proyecto construya una plataforma/producto
+  con nombre propio (siglas) — ahí sí se permite usar esa sigla en el título.
+- **Regla crítica de coherencia**: título, pregunta de investigación y objetivo general
+  deben hablar exactamente de lo mismo — incluso usando las mismas palabras clave. No
+  deben tratarse como tres piezas independientes del documento.
+
+### Los 5 criterios para construir un buen título
+1. **Tema/disciplina/área** — de qué trata, a qué área o disciplina pertenece.
+2. **Quiénes / hacia dónde** — población, unidades o grupo específico al que se dirige
+   (ej. "turistas", "niños de áreas urbanas").
+3. **Para qué** — el propósito u objetivo que motiva la investigación.
+4. **Cuándo (temporalidad)** — a veces es necesario, sobre todo si el fenómeno cambia
+   con el tiempo (ejemplo dado: estudios "antes/después del COVID").
+5. **Dónde (contexto geográfico)** — delimitar la ubicación evita títulos
+   excesivamente amplios (ejemplo dado: no es lo mismo estudiar algo "en Colombia" que
+   "en una localidad específica").
+
+Con estos 5 aspectos cubiertos (idealmente al menos 4), se redacta un párrafo largo
+con toda la información recolectada y luego se recorta progresivamente, eliminando
+palabras redundantes o datos que no son centrales al título (cifras exactas, rangos de
+edad, etc. — esos detalles van en el cuerpo del documento, no en el título), hasta
+llegar a una versión concisa dentro del límite de 21 palabras.
+
+Ejemplos de títulos bien construidos mostrados en clase (todos cumplen varios de los 5
+criterios y se mantienen bajo 21 palabras):
+- "Percepción de los turistas acerca de la autenticidad de las artesanías de Cápula,
+  Michoacán."
+- "Características de las ferias y fiestas religiosas en Santa María como estrategia
+  de conservación cultural."
+- "El patrimonio cultural de las haciendas de Real del Monte: posibilidades de un
+  desarrollo agroturístico."
+
+Recomendación práctica: al usar IA para generar opciones de título, pedir varias (al
+menos 3) y combinar/ajustar manualmente — el estudiante es quien conoce el tema real,
+la IA solo propone.
+
+## Planteamiento del problema
+
+- Antes de redactar el planteamiento, hay que **informarse primero** sobre la temática
+  elegida: revisar antecedentes y literatura (Google Académico, bases de datos de la
+  biblioteca virtual institucional — mencionadas: IEEE, Science Direct, Scopus, Legis
+  para temas de derecho, y herramientas de descubrimiento bibliográfico como Consensus,
+  Semantic Scholar y ResearchRabbit).
+- **Principio clave repetido**: si se tiene clara la problemática a resolver, ya se
+  tiene resuelta la mitad del proyecto — la pregunta de investigación y los objetivos
+  salen de ahí casi de forma natural. Si el problema no está bien descrito, la pregunta
+  de investigación "no queda clara" y los objetivos "empiezan a hablar de otra cosa".
+- **Distinción crítica (ejemplo dado en clase)**: el problema NO es "necesito
+  desarrollar una plataforma para registrar notas" — el problema es "no hay dónde
+  registrar las notas porque se hacen a mano, no se han digitalizado". La solución
+  (la plataforma) se deriva del problema, pero no es el problema en sí. Hay que
+  describir primero qué está pasando realmente, no adelantarse a la solución.
+- Al describir el problema hay que dar buen contexto y descripción real de la
+  situación, antes de pasar a proponer la posible solución.
+
+## Pregunta de investigación
+
+- Se construye a partir de la descripción del problema: es, en esencia, **una posible
+  solución (un supuesto)** a esa problemática — no tiene que resolver el problema por
+  completo, pero sí orientar toda la investigación hacia esa solución supuesta.
+- **No puede ser una pregunta de "cómo diseñar algo"** (ej. "cómo diseñar una
+  plataforma") — eso no es una pregunta de investigación real, porque no plantea una
+  solución medible a un problema, solo describe una tarea de construcción.
+- **Debe ser medible / observable / posible de experimentar** — ejemplo de lo que NO
+  funciona: "qué tan sublime es el alma de los adolescentes" (no es medible ni
+  observable). Debe poder convertirse en un experimento o ejercicio concreto.
+- **No debe ser demasiado general.** Ejemplos de preguntas señaladas como excesivamente
+  amplias en clase: "¿por qué algunos matrimonios duran más que otros?", "¿cómo se
+  relacionan los medios de comunicación con el voto?" — ambas abarcan demasiadas
+  variables/poblaciones/contextos posibles para desarrollarse en las 12 semanas del
+  curso.
+- Hay que **delimitar tiempo, espacio y unidades de observación** (ej. "niños
+  colombianos de áreas urbanas" en vez de simplemente "niños").
+- La pregunta principal genera luego **preguntas secundarias**, que a su vez se
+  convierten (cambiando el verbo de pregunta a acción) en los **objetivos
+  específicos**. La pregunta principal, por su parte, se traduce en el objetivo
+  general.
+
+## Número de variables/categorías recomendado
+
+- **Recomendación explícita de la profesora: 1 o 2 variables, máximo 3** — depende de
+  los recursos intelectuales reales del grupo (ej. si nadie del equipo tiene
+  conocimiento técnico en desarrollo de software, no es realista proponer construir
+  una aplicación compleja).
+- Razón principal: el curso dura solo **12 semanas**, y Proyecto I es la formulación
+  del anteproyecto que luego se ejecuta en Proyecto II — abarcar demasiadas variables
+  hace inviable medirlas todas en ese tiempo.
+- Ejemplo usado para ilustrar el error de abarcar demasiado: una pregunta de
+  investigación sobre noviazgo que intentaba vincular seis variables a la vez
+  (atracción física, confianza, proximidad, reforzamiento, autoestima, similitud) —
+  la profesora la usó para mostrar que hay que recortar a una o dos variables
+  centrales y asignarles peso/prioridad, no intentar medirlo todo.
+
+## Objetivos (adelanto, se profundiza en próximas clases)
+
+- Número recomendado de objetivos específicos: **3 a 4** (la profesora suele pedir 4).
+  Metáfora usada: son como las patas de una mesa — si falla el cumplimiento de uno, la
+  investigación entera "se cae" porque son los que dan validez al estudio completo.
+
+## Logística reiterada al cierre
+- Plazo de conformación de grupos: **2026-10-23** (sin cambios respecto a clase 1). Si
+  para esa fecha quedan estudiantes sin grupo, la profesora los asigna ella misma el
+  día 24.
+- Recordatorio de tutorías disponibles (algunos grupos nunca las usan).
+- Clases quedan grabadas y se suben a la plataforma apenas la profesora recibe el link.

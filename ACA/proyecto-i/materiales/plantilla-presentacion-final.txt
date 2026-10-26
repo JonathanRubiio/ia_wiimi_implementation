@@ -1,0 +1,44 @@
+Plantilla oficial destilada: "Plantilla Presentación Final 25ET1 - Proyecto-Seminario I.pptx"
+(el binario original no se guarda en el repo — ver materiales/registro.md)
+
+Formato de slide: 16:9 (12192000 x 6858000 EMU ≈ 13.33" x 7.5").
+
+## Estructura de contenido (slides 1-11, las únicas relevantes al contenido académico
+## — slides 12-38 son guía de marca/identidad verbal de la CUN, no aportan estructura
+## de contenido y se descartan de este resumen)
+
+1. **Portada** (layout "Diapositiva de título"): "Socialización", nombre de la
+   especialización, "Presentado por:", título del proyecto, nombres de los
+   integrantes.
+2. **Introducción**: subsección "Contexto" (marco general, datos/tendencias del
+   mercado o del entorno) + subsección "Importancia" (por qué es vital, impacto
+   potencial).
+3. **Planteamiento del Problema**: subsección "Problema Identificado" (datos/incidencia
+   concreta) + subsección "Pregunta Central" (la pregunta de investigación).
+4. **Objetivos**: subsección "Objetivo General" + subsección "Objetivos Específicos"
+   (listados).
+5. **Justificación**: subsección "Justificación" + subsección "Alcances" (población,
+   período, variables) + subsección "Limitaciones" (qué falta y cómo se mitiga).
+6. **Marco Referencial** (⚠ no aplica a ACA 1, ver nota de aplicabilidad abajo):
+   subsecciones "Teorías", "Antecedentes", "Conceptos", numeradas 1/2/3.
+7. **Metodología** (⚠ no aplica a ACA 1): enfoque, tipo, diseño de investigación,
+   población y muestra, instrumentos de recolección, análisis de información.
+8. **Cronograma** (⚠ no aplica a ACA 1).
+9. **Presupuesto** (⚠ no aplica a ACA 1).
+10. **Referencias bibliográficas**.
+11. **Preguntas** (slide de cierre, layout "Diapositiva de título").
+
+**Nota de aplicabilidad a ACA 1**: esta plantilla está pensada para la sustentación del
+anteproyecto *completo* (equivalente a ACA 3). Para una eventual presentación de
+avance de ACA 1, solo se usarían las slides 1-5 (Portada, Introducción, Planteamiento
+del Problema, Objetivos, Justificación+Alcances+Limitaciones) — Marco Referencial,
+Metodología, Cronograma y Presupuesto corresponden a ACA 2/ACA 3, igual que en la
+plantilla del documento Word (ver `plantilla-anteproyecto.txt`).
+
+## Guías de diseño visual (de las slides de marca, por si se generan diapositivas)
+- No más de 3 elementos por lista/bullet.
+- Letras oscuras sobre fondo claro, o letras claras sobre fondo oscuro — nunca mezclar
+  colores brillantes.
+- Preferir imágenes/gráficas/figuras sobre texto; máximo 2 imágenes por diapositiva.
+- Si se insertan tablas o gráficos (ej. Power BI/Excel), mostrar solo lo más relevante,
+  nunca tablas completas y saturadas.

@@ -1,0 +1,59 @@
+Identificador de clase: 2026-10-05 (G3)
+
+CLASE 1 — Proyecto I (Profesora: María Fernanda Rivera Sanclemente, grupo G3, lunes 7-9pm)
+
+## Perfil de la profesora
+Ingeniera electrónica (Universidad de San Buenaventura, Cali), magíster en electrónica y telecomunicaciones (Universidad del Cauca), doctora en Ciencias de la Electrónica (Universidad del Cauca). Categoría Investigador Asociado ante MinCiencias. Trayectoria en procesamiento de señales biomédicas (cardíacas y cerebrales). Actúa como directora de los anteproyectos del grupo.
+
+## Qué es Proyecto I (contexto dentro de la especialización)
+Proyecto I y Proyecto II son las dos materias de la "línea de investigación" de la especialización (distinta de los demás cursos, que son "línea académica"). En Proyecto I se **formula un anteproyecto** (propuesta de investigación); en Proyecto II se **desarrolla** esa propuesta. Duración: 12 semanas (un bloque del trimestre).
+
+**Regla explícita y repetida**: el entregable de Proyecto I es solo el anteproyecto — **nunca** se debe entregar con conclusiones ni como si fuera un proyecto ya ejecutado con prototipo funcional. "Al primero que me entregue un documento final con conclusiones, pues ya vamos mal, porque una propuesta, algo que no se ha desarrollado, no llega a conclusiones."
+
+Es válido traer una idea que el estudiante ya esté materializando en otra materia (ej. análisis de datos) o en su propia empresa, siempre que se delimite el alcance correctamente para esta materia — la profesora evalúa caso por caso qué tan viable es acotarlo. También es válido que el anteproyecto sea la base de un desarrollo posterior más grande (ej. aplicado en la empresa del estudiante) — eso se aclara explícitamente en el documento como alcance futuro, no genera conflicto de propiedad intelectual mientras quede aclarado que esa es solo la fase que se presenta aquí.
+
+## Líneas de profundización (hay que elegir una)
+1. Uso y adaptación de IA para entornos productivos.
+2. Implementación de IA en la educación.
+Son las únicas dos líneas autorizadas por los coordinadores del programa ante el Ministerio de Educación para esta especialización — cualquier propuesta debe encajar en una de las dos.
+
+## Las 7 temáticas del curso (estructura del anteproyecto)
+1. Fundamentos y enfoque de investigación: ciencia, conocimiento, enfoque cuantitativo/cualitativo/mixto, tipos y alcances de investigación, ética e integridad en la investigación.
+2. Problema y pregunta de investigación: contexto, descripción, delimitación, formulación de la pregunta — deben ser coherentes entre sí (contexto, problema y pregunta relacionados).
+3. Objetivos (general y específicos) y justificación: tipo de verbos a usar, niveles, relación con la pregunta de investigación.
+4. Marco referencial: antecedentes, marco teórico, marco conceptual, fuentes académicas, citación en APA 7.
+5. Diseño metodológico: enfoque, tipo, alcance, población, muestra, variables o categorías (recomendación: centrarse en una sola variable/categoría, no abarcar demasiadas), técnicas e instrumentos de recolección/análisis.
+6. Planeación y viabilidad: cronograma, presupuesto, recursos, alcance, limitaciones, factibilidad y riesgos.
+7. Evaluación final: revisión de similitud/uso de IA con una herramienta de la plataforma (el nombre no quedó claro en el audio, mencionado como algo similar a "Strike" — podría ser Turnitin u otra herramienta institucional; confirmar con la profesora o en la plataforma).
+
+Regla sobre uso de IA: "Es como un tonto que sabe mucho" — la IA se puede y se debe usar, pero el estudiante es responsable de darle coherencia y rigor académico; no se debe dejar toda la redacción a la IA sin revisión, porque la herramienta de similitud lo detecta y "comete muchos errores" si no se supervisa.
+
+## Principio clave transmitido en la clase
+"Si logramos identificar y tener claro qué es lo que se quiere resolver, cuál es el problema, así tenemos resuelto el 50% del proyecto." — delimitar bien el problema desde el inicio ahorra la mayor parte del trabajo posterior.
+Frase de cierre de la profesora: "La investigación es curiosidad formalizada, es hurgar, escudriñar con un propósito."
+
+## Evaluación y ponderación (3 cortes)
+- **Corte 1 (25%)**: ACA 1 (15%) + tarea de construcción de la sustentación/plantilla de socialización (10%). Entrega ACA 1: **2026-11-01**.
+- **Corte 2 (25%)**: ACA 2 + dos ejercicios de uso de un gestor de referencias bibliográficas (apoyan el marco teórico/referencial). Fecha mencionada para el ejercicio de gestor de referencias: **2026-11-29** (la ponderación exacta de ACA 2 dentro de este corte no quedó del todo clara en el audio — verificar en la plataforma antes de dar por cerrada esta cifra).
+- **Corte 3 (50%)**: ACA 3 — documentación final del anteproyecto (42%), entrega **2027-01-03**; autoevaluación + coevaluación (8% restante), fecha **2027-01-10**.
+
+**Actualización (ACA 1, resolución de la ambigüedad anterior)**: el sílabo oficial del
+curso (ESP329, ver `materiales/silabo.txt`) confirma la ponderación real y simplificada:
+**ACA 1 = 25%, ACA 2 = 25%, ACA 3 (anteproyecto consolidado) = 42% + autoevaluación 4% +
+coevaluación 4%**. Lo anterior en esta sección queda como registro histórico de lo dicho
+en la clase en vivo (que mezclaba cortes con sub-ponderaciones de tareas); para efectos
+de calcular la nota real, usar siempre la cifra del sílabo oficial.
+- Escala: 0.1 (no entregado) a 5.0. Rangos: insuficiente, aceptable (≥3.0, nota aprobatoria), buen desempeño (3.6-4.5), excelente (4.6-5.0).
+- Construcción **acumulativa**: ACA 1 → ACA 2 → ACA 3 van ampliando el mismo documento sección por sección, no son entregas independientes.
+
+## Logística del curso
+- Encuentros sincrónicos: lunes 7-9pm (vía Meet, se graban y se comparten). En festivos no hay encuentro en vivo, se deja la clase pregrabada — nunca se reprograma el día porque afectaría otros cursos de los estudiantes.
+- Entregas únicamente por la plataforma institucional (C Digital/Moodle) — nunca por correo. Si la plataforma falla cerca de la fecha límite, capturar pantalla como evidencia y abrir Cami Ticket; no se aceptan trabajos tarde sin esa evidencia.
+- Tutorías: se solicitan por correo (no hay horario fijo porque "no funciona esperar a que llegue gente"), duran ~30 minutos, disponibilidad aproximada de lunes a jueves 6-8pm, se agendan por Google Calendar.
+- Grupos de trabajo: **3 personas** es el tamaño recomendado (ideal según la profesora). Se permiten parejas o trabajo individual solo con justificación explícita (ej. manejo de información sensible/confidencial de la empresa que no se puede compartir, o conflicto real de tiempos). Más de 3 personas no se permite salvo que el proyecto sea excepcionalmente robusto — "la verdad es que a veces no se justifica". Plazo para conformar grupos en la plataforma: **2026-10-23** (no subir ningún documento antes de esa fecha porque puede quedar mal asignado a otro grupo cuando la profesora organice los grupos el día 24).
+- Un solo integrante del grupo sube cada entrega; la nota y retroalimentación llegan automáticamente a todos los integrantes registrados en ese grupo en la plataforma.
+- Recursos disponibles en la sección de "Descargas" de la plataforma: plantilla oficial del documento de anteproyecto (con estilos, comentarios guía por sección y ejemplos de aplicación de APA 7), plantilla de la presentación para la sustentación, sílabus del curso, documento de líneas de investigación, reglas de clase (incluye protocolo de plagio y de incapacidades/calamidades — requieren soporte documental y aviso por correo).
+- Propiedad intelectual: la idea y el desarrollo del anteproyecto son de autoría del estudiante; la CUN acompaña/orienta a través de la directora de proyecto, pero no reclama la propiedad — si el proyecto nace de una empresa, la propiedad intelectual de esa aplicación específica es de la empresa.
+
+## Próxima clase
+Se espera que los grupos ya estén conformados (plazo 2026-10-23) y que cada equipo traiga una idea/propuesta inicial de proyecto para empezar a trabajarla con orientación de la profesora.

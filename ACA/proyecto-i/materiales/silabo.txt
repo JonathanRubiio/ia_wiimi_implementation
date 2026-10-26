@@ -1,0 +1,79 @@
+Sílabo oficial destilado: "28_Especializacion_En_Inteligencia_Artificial_Proyecto_I_ESP329.pdf"
+(el binario original no se guarda en el repo — ver materiales/registro.md)
+
+## Identificación del curso
+- Programa: Especialización en Inteligencia Artificial.
+- Código: ESP329. Nombre: Proyecto I. Semestre (nivel): I.
+- Modalidad: Virtual. Calificación: nota única. Créditos: 2.
+- Intensidad: 32 h acompañamiento directo + 64 h trabajo autónomo = 96 h (THP), 16
+  semanas, 6 h semanales (THS).
+
+## Justificación institucional del curso
+Proyecto I inicia la ruta de trabajo de grado de la especialización: el estudiante
+delimita una situación problemática pertinente para su campo profesional y la
+convierte en un anteproyecto investigativo coherente, viable y éticamente
+fundamentado (antecedentes, problema, pregunta, objetivos, justificación, marco
+referencial, diseño metodológico, planeación). El producto final es la base de
+Proyecto II.
+
+## Resultado de aprendizaje del programa (macrocompetencia)
+Formula un anteproyecto de investigación pertinente, mediante la delimitación de un
+problema, la revisión crítica de antecedentes y referentes, la definición de objetivos
+y el diseño de una ruta metodológica viable, ética y coherente. Incluye explícitamente
+"aplica principios de integridad académica, propiedad intelectual y uso responsable de
+fuentes e inteligencia artificial" como resultado asociado — confirma que el curso
+exige declarar y usar la IA de forma transparente y supervisada (ver Fase 10, punto 5
+de `gestion-aca` sobre declaración de uso de IA, por si una ACA futura de esta materia
+la exige explícitamente).
+
+## Estructura temática oficial (7 unidades — coincide con lo visto en clase-1, con
+## redacción oficial más precisa)
+1. Fundamentos y enfoque de investigación — ciencia, conocimiento, método; enfoques
+   cuantitativo/cualitativo/mixto; tipos y alcances; ética e integridad investigativa.
+2. Problema y pregunta de investigación — identificación, contextualización,
+   delimitación, formulación; coherencia contexto-problema-pregunta.
+3. Objetivos y justificación — objetivo general y específicos, verbos y niveles de
+   alcance, relación pregunta-objetivos, justificación teórica/práctica/metodológica
+   y/o social.
+4. Construcción del marco referencial — antecedentes, estado del arte, marco teórico y
+   conceptual, fuentes académicas, citación y referencias.
+5. Diseño metodológico — enfoque, tipo, alcance, población/muestra, técnicas e
+   instrumentos, variables/categorías, procedimiento y ética.
+6. Planeación y viabilidad del proyecto — cronograma, presupuesto, recursos, alcances,
+   limitaciones, factibilidad, riesgos.
+7. Integración y evaluación del anteproyecto — coherencia interna, revisión académica,
+   citación, análisis de similitud, uso ético/crítico/transparente de IA.
+
+## Ponderación oficial (resuelve la ambigüedad dejada abierta en clase-1.txt)
+**ACA 1: 25 % — ACA 2: 25 % — ACA 3 (anteproyecto consolidado): 42 % + autoevaluación
+4 % + coevaluación 4 %.** Son avances acumulativos de un único producto (no entregas
+independientes). Si en ACA 3 el estudiante incorpora correctamente las correcciones de
+ACA 1/ACA 2, el docente puede ajustar favorablemente esas notas retroactivamente.
+
+Nota: esto reemplaza la estimación incierta registrada en `clases/clase-1.txt`
+("cada una vale el 10..., no quedó del todo clara en el audio") — esa nota de clase-1
+queda como registro histórico de lo dicho en vivo, pero la cifra oficial y correcta a
+usar de aquí en adelante es la de este sílabo.
+
+## Estrategia didáctica
+Aprendizaje basado en proyectos + acompañamiento tutorial. ACA 1/2/3 deben evitar
+convertirse en tareas aisladas — son el mismo documento creciendo. IA generativa
+permitida como apoyo, siempre con supervisión humana, verificación de resultados,
+declaración transparente de su uso y protección de datos.
+
+## Bibliografía institucional del curso (nivel materia, no específica de una ACA)
+- American Psychological Association. (2020). *Publication manual of the American
+  Psychological Association* (7th ed.). American Psychological Association.
+- Creswell, J. W., & Creswell, J. D. (2023). *Research design: Qualitative,
+  quantitative, and mixed methods approaches* (6th ed.). SAGE.
+- Hernández-Sampieri, R., & Mendoza Torres, C. P. (2018). *Metodología de la
+  investigación: Las rutas cuantitativa, cualitativa y mixta*. McGraw-Hill Education.
+- Maxwell, J. A. (2019). *Diseño de investigación cualitativa*. Gedisa.
+- Corporación Unificada Nacional de Educación Superior. (2013). *Acuerdo 013: Política
+  de Posgrados*.
+- Corporación Unificada Nacional de Educación Superior. (2017). *Acuerdo 020: Política
+  General de Investigación y Creación Artística y Cultural*.
+
+Estas son referencias metodológicas de curso, no sustituyen las fuentes académicas
+específicas que cada ACA deba buscar sobre su propio tema (ver
+`ACA 1/planificacion/solucion.md` para las de ACA 1).

@@ -1,0 +1,106 @@
+Plantilla oficial destilada: "Plantilla_APA_CUN_Proyecto de grado I (v2).docx"
+(el binario original no se guarda en el repo — ver materiales/registro.md)
+
+## Formato obligatorio del documento (Anexo 1 de la plantilla)
+- Tamaño carta, márgenes de 3 cm en los 4 lados.
+- Tipografía: Times New Roman 12 pt.
+- Interlineado: 1,5 (NO doble — distinto del supuesto genérico de APA usado en otras
+  materias de este repo; aquí manda esta plantilla).
+- Párrafos justificados.
+- Numeración automática de página en todas las páginas.
+- La plantilla dice "Especialización en Transformación Digital" en portada y
+  declaraciones — es un texto genérico reciclado entre especializaciones de la CUN.
+  **Reemplazar siempre por "Especialización en Inteligencia Artificial"** (nombre real
+  del programa, confirmado en el sílabo oficial, código ESP329).
+
+## Estructura completa del documento (orden de secciones)
+1. Portada (ver más abajo).
+2. Dedicatoria (opcional, texto centrado).
+3. Agradecimientos (opcional, texto centrado).
+4. Lista de tablas / Lista de figuras (tabla de contenido automática).
+5. Resumen (español, 150-250 palabras: objetivo, metodología, resultados, conclusiones)
+   + palabras clave.
+6. Abstract (mismo contenido en inglés, misma extensión) + keywords.
+7. Preliminares:
+   - Declaración de originalidad y autonomía (texto fijo de la plantilla + firma de
+     cada integrante con nombre completo + ciudad/departamento).
+   - Declaración de exoneración de responsabilidad (texto fijo + firmas).
+8. Introducción — menciona para qué y por qué del documento: incluye planteamiento del
+   problema, objetivo, preguntas de investigación, justificación (resumidos). Se
+   permite narración en 3a persona o 1a persona plural (equipo). Usar conectores
+   variados (sin embargo, puesto que, por consiguiente, dado que, etc.).
+9. Planteamiento del problema — dos ítems obligatorios:
+   - Diagnóstico de la situación actual: identificación puntual, concisa y directa del
+     problema, con variables/indicadores.
+   - Predicción o pronóstico de la situación descrita: implicaciones, causas y efectos
+     (insumo directo para un futuro árbol de problemas).
+   - Subsección "Formulación o Pregunta de Investigación": pregunta clara y concreta,
+     relacionada directamente con el planteamiento; nunca de respuesta sí/no; usa
+     adjetivos interrogativos (cuál, qué, cuántos, cómo...).
+10. Objetivos:
+    - Objetivo general: debe coincidir con el título del proyecto.
+    - Objetivos específicos: máximo 4, redactados en infinitivo, afirmativos, un solo
+      verbo por objetivo, un solo verbo en infinitivo, sin ambigüedad. Verbos sugeridos:
+      describir, analizar, demostrar, probar, comparar, definir, diseñar, proponer,
+      implementar, crear, evaluar, mejorar, medir, exponer, revisar, explorar,
+      establecer, interpretar (taxonomía de Bloom como guía).
+11. Justificación — componentes teórico, metodológico y/o práctico; explicar
+    pertinencia, aporte, beneficiarios. Evitar abuso de cursivas/negritas; preferir
+    comillas "inglesas"/'sencillas' sobre «latinas».
+12. Alcances y Limitaciones del Proyecto — fronteras y máximo desarrollo comprometido,
+    impacto real esperado.
+13. Marco Referencial (⚠ no aplica a ACA 1 de esta materia — ver nota abajo):
+    - Antecedentes: mínimo 3 antecedentes, mínimo 10 referencias de soporte.
+    - Marco teórico (estado del arte).
+    - Marco Conceptual (términos técnicos definidos, con cita APA de cada uno).
+    - Extensión máxima: 5 páginas.
+    - Un solo gestor de citas (recomendado: Mendeley) — no mezclar métodos.
+    - Evitar blogs, Wikipedia, Rincón del Vago, Monografías.com — usar bases
+      académicas (bases suscritas de biblioteca, Google Scholar, Redalyc, Scielo,
+      Dialnet, DOAJ, PubMed, Base Search).
+14. Metodología (⚠ no aplica a ACA 1): tipo de estudio (exploratorio/descriptivo/
+    explicativo), método/diseño, participantes/unidad de análisis, plan de análisis de
+    información, instrumentos.
+15. Cronograma y Presupuesto (⚠ no aplica a ACA 1): recursos humanos, infraestructura,
+    equipos, materiales adicionales; especificar fuente de cada recurso.
+16. Referencias bibliográficas (formato APA 7 estricto).
+17. Anexos (material complementario; nunca incluir datos personales identificables de
+    terceros sin consentimiento — Ley 1581 de 2012).
+
+**Nota de aplicabilidad a ACA 1**: según el enunciado/rúbrica de ACA 1 (criterios en
+`ACA 1/planificacion/criterios-aceptacion.md`) y la estructura temática acumulativa
+confirmada en el sílabo oficial (`materiales/silabo.txt`), ACA 1 solo cubre hasta
+"Alcances y Limitaciones" (puntos 8 a 12 de esta lista) — Marco Referencial, Metodología
+y Cronograma/Presupuesto son temáticas de ACA 2/ACA 3, no de esta entrega. No generar
+esas secciones todavía en el documento de ACA 1.
+
+## Reglas de citación APA 7 (ejemplos de la plantilla, para aplicar literalmente)
+- Un autor en paráfrasis: (Arango, 2000). Dos autores: (Ramírez H. & Guzmán, s.f.). Tres
+  o más autores: (Baker et al., 2002).
+- Cita textual menor a 40 palabras, dentro del párrafo, entre comillas: "..." (Autor,
+  año, p. X).
+- Cita textual mayor a 40 palabras: bloque sin comillas, sangrado, cita al final (Autor,
+  año, p. X).
+- Dos o más fuentes en un solo paréntesis: orden alfabético, separadas por punto y coma.
+- Autor corporativo con sigla: primera vez nombre completo + sigla entre corchetes;
+  siguientes veces solo la sigla.
+- No incluir comunicaciones personales (correos, entrevistas) en la lista de
+  referencias — solo se citan en el texto.
+
+## Reglas de título (Anexo 2, coinciden con lo visto en clase-2)
+- Máximo 21 palabras.
+- Sencillo, claro, tono afirmativo.
+- Alineado con el objetivo general, el planteamiento del problema y el estado del arte.
+- Responde qué/por qué/cuándo/cómo/dónde/quién/cuál/para qué.
+- Evitar repetición de preposiciones/artículos tipo "Estudio sobre...", "Investigación
+  acerca de...", "Análisis de resultados de...".
+
+## Portada (datos que deben completarse, no dejar como plantilla)
+- Especialización en Inteligencia Artificial (nombre real, no "Transformación Digital").
+- Línea de profundización (una de las 2 autorizadas, ver clases/clase-1.txt).
+- Título del proyecto (solo primera letra en mayúscula).
+- Presentado por: nombres y apellidos completos de los integrantes (ver
+  `integrantes.md` de la materia).
+- Bajo la dirección de: nombre del mentor + nombre del mentor metodológico (pendiente —
+  dato que debe confirmar el usuario, no inventar un nombre).
+- Ciudad, Departamento.
