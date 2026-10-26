@@ -1,0 +1,61 @@
+Identificador de clase: 2026-10-01 (G3)
+
+CLASE 1 — IA para la Transformación Digital en Sectores Productivos (Profesor: Jainer Andrés Ballesteros Rincón, grupo G3, jueves 6-8:30pm)
+
+## Perfil del profesor
+Técnico en electrónica industrial (SENA), ingeniero electrónico (Universidad Popular del Cesar), especialista en formulación y evaluación de proyectos (IU Digital de Antioquia), magíster en IA (UNIR, España, con prácticas en Europa), doctorando en informática (UNADE, México), candidato a posdoctor en IA. Experiencia desarrollando proyectos de IA con multinacionales y empresas públicas/privadas: LLMs, agentes, ecosistemas de IA, PLN, visión por computadora, razonamiento y planificación automática; auditor de procesos informáticos y de aplicación de IA en procesos financieros.
+
+## Objetivo general del curso (aprobado por el Ministerio de Educación)
+Desarrollar las capacidades estratégicas, técnicas y analíticas necesarias para **dirigir** procesos de implementación de IA en la transformación digital de sectores productivos. No es un curso de programación: el objetivo es que el estudiante pueda tomar buenas decisiones de diseño/arquitectura aunque no domine el desarrollo técnico a profundidad — eso lo evalúa el profesor (qué tan bien fundamentadas están las decisiones), no la complejidad técnica del resultado.
+
+## Concepto central: "ecosistema de IA" y sus componentes mínimos
+Todo ecosistema de IA, sin importar el sector (salud, agro, financiero, educativo, etc.), necesita como mínimo: un **canal de comunicación** (WhatsApp, Telegram, red social propia), una **base de datos** (ej. PostgreSQL), un **agente** con un **modelo de IA** embebido (LLM), y un **API** que conecta cada uno de estos componentes entre sí. Estos componentes se repiten en cualquier tipo de proyecto; lo que cambia es la profundidad/cantidad de componentes adicionales según el alcance que el equipo decida abordar.
+
+Ejemplo guía usado repetidamente: un asistente de IA para agendar/reagendar citas en un consultorio odontológico — el conocimiento profesional del odontólogo se traduce en el prompt/base de conocimiento que usa el agente; la IA no reemplaza al profesional, organiza y agiliza el proceso basada en el conocimiento que el propio profesional aportó.
+
+## TRL6 vs TRL7 (maduración de un proyecto)
+- **TRL6**: proyecto a nivel de laboratorio — se desarrolla y lo usan ~10 personas que dan feedback de mejora. Es el nivel que se espera para los ACA de este curso (diseño).
+- **TRL7**: proyecto llevado a producción, cumple estándares para operar con cientos/miles de usuarios reales.
+Al ampliar la cobertura de usuarios se necesita ampliar la infraestructura (local o en la nube) — más usuarios = más recursos = más costo. Colombia no tiene normatividad específica para IA todavía (sí para tratamiento de datos); el centro de datos más cercano está en Brasil, lo que impacta la latencia según dónde se alojen los datos.
+
+## Analogía de tokens de entrada/salida
+Comprar un plan de IA es como comprar un plan de telefonía móvil: en vez de "gigas de carga/descarga" se compran **tokens de entrada y tokens de salida**. Los tokens de salida (donde el modelo "razona" y decide) suelen costar más que los de entrada. El costo por token varía mucho entre modelos: un modelo muy inteligente puede costar ~200 COP por token vs. un modelo poco inteligente en ~0.01-0.1 COP — la decisión de qué modelo usar (sobredimensionado vs. subdimensionado para la tarea) es una decisión de liderazgo de proyecto, no solo técnica. Proveedores/familias mencionadas en orden de dominio del sector (razonamiento/precisión): Anthropic, luego OpenAI, luego Nvidia, luego Gemini.
+
+## Ética y gobierno de la IA
+- La IA no debe tener autonomía total en procesos delicados; a mayor nivel de riesgo/decisión, mayor debe ser la supervisión humana.
+- El profesional (líder de proyecto) es responsable de las decisiones éticas de aplicación, no el desarrollador de la herramienta en sí — paralelo con un desarrollador de software que crea algo éticamente correcto pero cuya aplicación puede usarse mal.
+- **Gobierno de la IA**: alinear el ecosistema de IA con la política de la empresa, normatividad de atención, protocolos de seguridad y normas de uso — sin esto, el sistema puede tomar decisiones equivocadas (ej. si se le da autonomía de consultar la web, puede traer políticas de otras empresas que no aplican a la organización propia).
+- Ejemplo retórico usado: la reciente reunión entre presidentes de EE.UU. y China sobre regulación de IA, y la analogía con robots humanoides (competencias en Asia) como ilustración de por qué hay un "stop" regulatorio emergente a la autonomía total de la IA.
+- Idea reiterada: la IA no busca eliminar puestos de trabajo sino optimizar tiempos y reducir carga operativa de las personas; usarla de forma ética implica no "desagregar" trabajos, sino mejorar procesos.
+- Cuando un sistema falla, siempre se busca un responsable (usuario → organización → líder de proyecto); documentar la autonomía que se le dio a la IA y a los usuarios protege al equipo de proyecto frente a fallos que no dependen directamente de ellos (ej. caída de un proveedor de nube).
+
+## Caso de ejemplo trabajado en clase (estilo pregunta de quiz)
+Una cadena de supermercados implementa un asistente de IA por WhatsApp para pedidos, facturación y domicilios. Durante una campaña de descuentos, el sistema responde lentamente y los costos del proveedor de IA aumentan. El equipo técnico identifica que los **prompts contienen demasiado contexto** y que cientos de usuarios hacen solicitudes simultáneas.
+- Causa correcta: **problemas de concurrencia** (muchas solicitudes simultáneas) agravados por prompts extensos que incrementan el consumo de tokens, generan latencia y aumentan los costos operativos.
+- Causas incorrectas descartadas: diseño gráfico del chatbot (no afecta rendimiento del modelo), mensajes de usuario demasiado cortos, exceso de registros históricos en la base de datos (no aplica al contexto dado).
+- Lección: el diseño de un buen **prompt** (taxonomía/estructura) varía según el modelo (ej. OpenAI puede necesitar más instrucciones explícitas; Anthropic puede "perderse" con demasiado contexto) — este tema se profundiza en sesiones siguientes.
+
+## Recomendaciones para el proyecto/ACA
+- Empezar con proyectos **pequeños y escalables** por fases, no con un alcance muy amplio desde el inicio (el riesgo de un alcance muy grande es no comprender bien los conceptos y generar rechazo/"fobia" hacia la IA).
+- Evaluar siempre la **viabilidad del ROI**: que el proyecto sea positivo en retribución para la organización y esté dentro de los parámetros de costo (cálculo de tokens × solicitudes × usuarios).
+- Identificar riesgos desde el primer momento; gestionar el cambio con las personas afectadas (relacionado con el tema de inteligencia emocional/adopción que se vería en otras materias).
+- No dejar que la IA haga el trabajo completo sin supervisión real del equipo — "prohibido el copy-paste de IA": se puede usar como apoyo (redactar borradores, organizar ideas, generar video de apoyo), pero el equipo debe revisar y hacerse responsable del contenido final, especialmente las conclusiones.
+
+## Evaluación de la materia
+- Curso de 8 semanas (bloque del 2026-09-28 al 2026-11-22), 3 cortes: corte 1 = 30%, corte 2 = 30%, corte 3 = 40% (dividido en ACA 2 = 32%, autoevaluación = 4%, coevaluación = 4%).
+- **Quiz** (corte 1, cierra domingo 2026-10-11 11:59pm): 5 preguntas de selección múltiple (A-D, una correcta), estilo "prueba de estado" (caso + pregunta + 4 opciones), banco de preguntas amplio y aleatorio, dos intentos (se toma la nota más alta), 45 min por intento, nota mínima 0, máxima 5. Temáticas del quiz: APIs, automatización, tokens, costo, latencia, concurrencia, agentes de IA, RAG, bases de datos vectoriales, cloud y escalabilidad, supervisión humana, observabilidad y monitoreo, riesgos y contingencia, gobierno de IA.
+- Antes de habilitarse el quiz de cada sesión, hay que "evaluar al docente" (encuesta corta de carita feliz/triste).
+- **ACA 1** (segundo corte, semanas 3-5, entrega máx. 2026-11-01): diseño estratégico del ecosistema de IA — abordar una problemática organizacional real, diseño de arquitectura tecnológica, integración de API en diseño, automatización de servicios, análisis de costos, gestión de riesgo, supervisión humana e impacto organizacional.
+- **ACA 2** (tercer corte, semanas 6-7, entregas del 2026-11-02 al 2026-11-15): evolución directa del ACA 1 — llevar el diseño a escala/producción: escalabilidad (vertical/horizontal), despliegue, gobierno de IA, mantenimiento (preventivo/correctivo/predictivo), riesgos.
+- ACA 1 y ACA 2 son grupales (5 integrantes, mismo grupo para ambas), con **sustentación obligatoria en video** — el profesor evalúa informe + video como complemento (lo que falte en el informe puede completarse en el video). Recomienda apoyarse en herramientas de IA (ej. NotebookLM) solo para la forma/presentación, no para generar el contenido evaluado.
+- Entrega: un integrante sube hasta 5 archivos (informe Word en norma APA — obligatorio —, PDF opcional, presentación PowerPoint/Canva, Excel de soporte si aplica, evidencia de intentos de contacto con compañeros que no respondieron).
+- Plazo de calificación: 3 días hábiles (lunes-miércoles) después del cierre de cada actividad (los cierres son domingos). Si el estudiante no está de acuerdo con la nota: primero pedir retroalimentación al docente; si persiste la discrepancia, solicitar un segundo calificador vía Cami Ticket (puede resultar en una nota más baja).
+- Grupos de 5, se autoconforman en la plataforma (plazo hasta 2026-10-11); si no se conforma a tiempo, el sistema asigna automáticamente. No se permiten cambios de grupo una vez seleccionado. Se califica solo a quienes aparecen en la portada — si un integrante no trabajó, no se lo incluye (tendrá 0.1 y deberá justificar aparte vía Cami Ticket).
+- Trabajo individual solo se autoriza en casos atípicos, vía solicitud escrita.
+- Escala de calificación: mínima 0.1, máxima 5.0. Rangos: insuficiente (0.1-2.9), aceptable (3.0-3.5), bueno (3.6-4.5), excelente (4.6-5.0). Nota aprobatoria: 3.0 en adelante.
+- Norma APA obligatoria para todas las entregas (sin logos ni fondos de plantilla): portada, índice de contenido/figuras/tablas, introducción, desarrollo, conclusiones, enlace del video, bibliografía — todo conocimiento no propio debe ir referenciado (sangría francesa en referencias).
+- Único canal oficial para temas administrativos/novedades: **Cami Ticket** (nunca correo electrónico). Canal de avisos generales: Google Space/chat grupal. Hay 3 días hábiles para resolver una novedad reportada. Casos típicos: fallas del sistema (capturar pantalla como evidencia), incapacidad médica (adjuntar soporte), conflictos de horario entre grupos.
+- Plataforma C Digital centraliza: contenido por sesión, calendario, norma APA, grabaciones, NotebookLM (con Gemini) como herramienta de apoyo para consultar fuentes/generar resúmenes.
+
+## Próxima clase
+Se profundizará en los conceptos de tokens, prompts y latencia mencionados en el caso de ejemplo del quiz, además de continuar con el contenido técnico del sílabo.

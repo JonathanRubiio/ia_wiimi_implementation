@@ -1,0 +1,69 @@
+Identificador de clase: 2026-10-15 (G3)
+
+CLASE 3 — IA para la Transformación Digital en Sectores Productivos (Profesor: Jainer Andrés Ballesteros Rincón, grupo G3)
+
+## Logística del corte y calendario
+- Segundo corte (30% de la nota, una sola nota): el ACA 1. Abre 2026-10-12, cierra 2026-11-01 (domingo, fin del día).
+- Semana 3 (esta clase): explicación general del ACA 1/2 + ejemplo. Semana 4 (clase 4): detalle de los componentes internos del ecosistema de IA. Semana 5 (clase 5): sesión práctica de laboratorio con N8N, tokens, Telegram.
+- Entrega: un solo integrante del grupo sube hasta 5 archivos (Word obligatorio en APA 7, + PDF opcional, + Excel/anexos si algo no cabe en el documento, ej. matriz de riesgos). No esperar al último día — recomienda entregar el sábado por riesgo de saturación de la plataforma; si se cae, capturar pantalla y abrir Cami Ticket para solicitar excepción.
+- El quiz del corte 1 ya cerró; quien no lo presentó por una novedad de peso debe abrir Cami Ticket (el profesor no tiene autonomía para reabrir un corte completo, eso lo decide liderato de programa).
+- Todos los grupos de 5 ya están conformados (2 grupos quedaron en 4 por retiros). Las decisiones de a qué otras materias (Proyecto 1/2) se lleva el mismo proyecto son del equipo, no del docente — pero cuidado: nunca dejar en el documento el nombre/profesor de otra materia por error de copiar y pegar (= 0.1 automático).
+
+## Estructura exacta del ACA 1 (actividad de construcción aplicada)
+Pregunta orientadora: "¿Cómo puede la IA contribuir a la transformación digital de los sectores productivos mediante el diseño de un ecosistema tecnológico que permita resolver un problema organizacional integrando automatizaciones, datos y supervisión humana en su estructura?"
+
+Puede ser una organización real o simulada (si es real: anonimizar nombres de clientes/empleados reales — usar "cliente 1, cliente 2..."; si la universidad usa el proyecto como producto de investigación/proyecto de grado, se necesita autorización escrita de la organización, adjuntable como anexo). El sector productivo es libre (educación, salud, agro, logística, banca, gobierno, industria...). Recomendación explícita: elegir un alcance **pequeño y sencillo** — un proyecto muy amplio dificulta aprender los conceptos; "no aprendemos a correr de una vez, aprendemos gateando". No es obligatorio desarrollar nada técnicamente — se puede dejar completamente en diseño (nivel TRL6, "en papel") y aun así tener nota máxima; si el equipo tiene habilidades y quiere implementar algo real, se evalúa con más detalle pero no es requisito.
+
+**Extensión**: máximo 10 páginas de desarrollo (no cuentan portada, índices, bibliografía, conclusiones). Debe incluir tablas e imágenes obligatoriamente (ej. diagrama de arquitectura, tabla de riesgos). Toda información tomada de una IA (incluso para generar datos básicos de la empresa ficticia) debe citarse/referenciarse igual que cualquier fuente.
+
+### Los 9 puntos de desarrollo obligatorios
+1. **Problema organizacional**: redactado desde una perspectiva organizacional (no técnica) — qué pasa, por qué es un problema, qué impacto tiene. No mencionar aquí la solución de IA todavía.
+2. **Sector productivo**: identificar y justificar brevemente a qué sector pertenece la organización elegida.
+3. **Solución propuesta basada en IA**: qué hará el sistema, cómo aborda el problema, qué procesos se automatizan/asisten. Solo decisiones, no requiere desarrollo técnico real. Debe contemplar sí o sí un agente de IA y un modelo de IA (si no hay IA, no es un proyecto de IA).
+4. **Arquitectura del ecosistema de IA** (componente central): describir cómo interactúan los elementos tecnológicos, el flujo completo desde la entrada del usuario hasta la respuesta final — canales de comunicación, APIs, automatización, modelos de lenguaje, base de datos, dashboard, infraestructura cloud, supervisión humana. Obligatorio incluir un diagrama/figura de la arquitectura, referenciado en el texto.
+5. **Cuadro de tecnologías involucradas**: tabla con cada componente del ecosistema y su tecnología soportada (automatización, IA, base de datos, infraestructura cloud, canales) — puede ir como anexo si ocupa mucho espacio.
+6. **Riesgos identificados**: técnicos, operativos y organizacionales — considerar saturación del sistema, dependencia tecnológica, costos asociados, privacidad de datos, errores de la IA (alucinaciones, sesgos, tasas de desaprendizaje), latencia de respuestas.
+7. **Impacto organizacional**: efectos positivos y negativos — transformación de roles laborales (ej. liberar a soporte técnico de nivel 1 para enfocarse en nivel 2), resistencia al cambio esperable, necesidad de supervisión humana permanente, dependencias tecnológicas.
+8. **Costos generales estimados**: estimación conceptual (no valores exactos obligatorios) — consumo de tokens, consumo de APIs, modelos de IA, infraestructura cloud, almacenamiento, herramientas de automatización.
+9. **Supervisión humana**: componente fundamental para garantizar seguridad de la información, calidad y confiabilidad del sistema — nunca dejar el ecosistema "funcionando solo".
+
+Puntos adicionales recomendados (no numerados en el enunciado pero esperados): 10. enlace del video de sustentación, 11. conclusiones (técnicas + personales/profesionales — qué se aprendió sobre no delegarle todo a la IA sin supervisión), 12. referencias.
+
+### Evidencia audiovisual (obligatoria para ACA 1 y ACA 2)
+Video máximo 7 minutos (no es grave pasarse un poco, pero ayuda a la calificación). No es obligatorio que todos los integrantes aparezcan en cámara ni que sea "en vivo" — se puede apoyar en IA (ej. NotebookLM) pero no dejarlo completamente plano/automatizado: es la oportunidad de demostrar apropiación real de los conceptos (relacionado con la sustentación oral que evita que el trabajo se haya hecho "solo con IA sin apropiación"). Recomendación: una presentación corta (3-5 diapositivas) con problema, solución, arquitectura, riesgos/impacto, como guía del video. Subir a YouTube público o compartir por Drive garantizando permisos de visualización — un video sin acceso cuenta como no entregado.
+Si no se agrega un integrante a la portada aunque haya trabajado, o si alguien aparece en la portada sin haber trabajado, hay que justificarlo con evidencia (capturas de intentos de contacto) — quien no trabajó recibe 0.1 aparte, independientemente de que el resto reciba buena nota.
+
+## Rúbrica de evaluación (4 criterios, escala 0.1–5, aprobatorio ≥3.0)
+1. **Análisis del problema, solución de IA y sector productivo**.
+2. **Arquitectura del ecosistema de IA y tecnologías involucradas**.
+3. **Análisis de riesgos, costos e impacto organizacional**.
+4. **Calidad documental** (norma APA, estructura, portada correcta) **+ evidencia audiovisual** (que la sustentación use una herramienta de apoyo, no repita literalmente el documento).
+Cada criterio se califica independientemente; 0.1 si no se entrega nada en ese punto, hasta 5 si está completo, claro, coherente y bien justificado.
+
+## Ejemplo real desarrollado en clase: automatización de reclutamiento por WhatsApp con IA
+Caso real implementado por el profesor para una empresa de RRHH — sirve como plantilla de cómo estructurar el ACA 1.
+
+**Problema organizacional** (sin mencionar la solución técnica): el área de talento humano recibe diariamente 100-500 hojas de vida por WhatsApp; la revisión es 100% manual (leer PDF, validar experiencia/habilidades, clasificar) → sobrecarga del equipo, baja escalabilidad, respuestas lentas a candidatos, seguimiento inexistente. Cálculo de magnitud: ~300 hojas de vida/día × 7 min promedio = 2100 min (35 horas) de trabajo diario repartido en 4 personas.
+
+**Arquitectura (capas)**: capa de comunicación (candidato envía PDF por WhatsApp Business) → API puente (Meta API, o alternativas Whil/Evolution API) → webhook que activa N8N (motor de automatización) → capa de procesamiento documental: **OCR PDF** extrae el texto plano del PDF (sea nativo o escaneado) *antes* de pasarlo al modelo — esto reduce drásticamente el consumo de tokens (un PDF puede costar ~50x más que su texto plano equivalente) y mejora la precisión; además permite cambiar de modelo de IA en el futuro sin rediseñar todo el sistema → capa de IA/LLM: GPT-4 Mini analiza el texto y genera un JSON con nombre, score, nivel, experiencia, skills, resumen y si es apto para entrevista → almacenamiento: PostgreSQL guarda el resultado estructurado de **todos** los candidatos (los aprobados y los descartados, nunca se decide "borrar"); Redis guarda el contexto conversacional temporal (configurable por horas/días) para no saturar la base de datos permanente → visualización: dashboard/Power BI en tiempo real.
+
+**Arquitectura de agentes (multiagente orquestado por N8N)**: 4 agentes especializados — (1) **recepcionista**: primer filtro, valida que lo recibido sea un PDF válido (rechaza imáges/videos/PPT); (2) **analista**: el más inteligente/costoso, hace el análisis real y genera el JSON de salida; (3) **notificador**: avisa al candidato y al reclutador; (4) **seguimiento**: genera reportes y métricas de proceso. Ejercicio de la clase: si hay que recortar costos, el único agente que se puede eliminar sin romper el flujo esencial es el de seguimiento — los otros tres son imprescindibles (sin recepcionista se desborda el analista con basura; sin analista no hay clasificación; sin notificador no hay respuesta a candidato ni a RRHH).
+
+**Resultados obtenidos**: tiempo de respuesta de 5-10 minutos manual → 5-15 segundos con IA. Costo ~0.002-0.003 USD por hoja de vida procesada (15-30 USD/mes para 5000 hojas). La empresa mantuvo a los 4 empleados de RRHH (de hecho su costo subió ligeramente, de "pagarles 10 millones" a un equivalente +1500 por la automatización) pero pasaron de atender 10 empresas-cliente a 50 — la métrica correcta no es "ahorrar nómina" sino **aumentar la capacidad atendida con el mismo equipo**. El profesor es explícito: la decisión ética de usar la IA para *reemplazar* personas en vez de *potenciarlas* es una decisión de cada profesional, pero el enfoque que él recomienda y evalúa mejor es el de garantizar el empleo y mejorar condiciones laborales.
+
+**Qué SÍ hace la IA en este ecosistema**: leer/extraer información de las hojas de vida, generar un puntaje objetivo según criterios definidos por el reclutador (no por el desarrollador), ordenar candidatos por relevancia, eliminar sesgos subjetivos del filtro inicial.
+**Qué NO hace la IA**: decidir a quién contratar, descartar definitivamente a un candidato (todo queda almacenado y visible, nunca borrado), hacer juicios personales/subjetivos, reemplazar al reclutador.
+
+**Riesgos tecnológicos identificados en el ejemplo**: saturación del servidor/VPS (si no hay autoescalado, el sistema simplemente cae), caída de una API externa (fuera de nuestro control), bloqueo permanente de la cuenta de WhatsApp (si Meta bloquea la cuenta de la organización, no se puede recuperar), exposición/robo de credenciales de API (puede agotar meses de presupuesto de tokens de un solo hackeo).
+**Riesgos de IA identificados**: sesgos de clasificación, falsos positivos, dependencia excesiva de un proveedor, alucinaciones del modelo.
+
+## Decisiones técnicas de costo-beneficio mencionadas (aplicables a cualquier ACA)
+- **Modelo abierto vs. comercial**: un modelo abierto (ej. LLaMA) no tiene costo de token pero exige máquina propia potente para correrlo; un modelo comercial (ej. GPT-4 Mini) es más fácil de configurar pero se paga por token de entrada/salida.
+- **VPS personalizado (Hostinger, Hetzner, DigitalOcean) vs. nube de gran proveedor (AWS/Azure/GCP)**: el VPS tiene recursos fijos (se cae si hay un pico inesperado); la nube de gran proveedor permite autoescalado pero cuesta según uso. Para un proyecto pequeño en aprendizaje, un VPS económico ($9-18 USD/mes según RAM/almacenamiento) es suficiente — ojo con sobredimensionar comprando más de lo que el proyecto necesita.
+- **APIs para conectar WhatsApp con N8N**: Evolution API (gratis, alto riesgo para producción, no recomendada), Whil (costo medio, entrega rápida, buena alternativa mientras se aprueba la oficial), API oficial de Meta (puede tardar hasta 20 días en aprobarse, pero es la más segura/estable).
+- Herramientas gratuitas (Gemini, etc.) usan los datos ingresados para entrenar sus modelos — para producción con datos sensibles se recomienda plan pago; para pruebas, usar datos ficticios o reales disfrazados (cambiar nombres).
+- Separación entre lo que va a una nube pública (la aplicación/N8N/modelo) y lo que debe quedar en almacenamiento privado (datos sensibles de clientes/colaboradores) — tema que se profundiza en el curso "Computación en la nube".
+- Linux es preferido para correr este tipo de ecosistemas (los microservicios de IA corren mejor ahí), aunque la decisión depende de la compatibilidad con lo que la organización ya tiene.
+
+## Próxima clase
+Detalle técnico de los componentes internos del ecosistema (Docker, Redis, latencia, concurrencia) como preparación directa para la sesión práctica de laboratorio (semana 5: configuración de cuentas, N8N, Telegram, conexión de un modelo de IA).
