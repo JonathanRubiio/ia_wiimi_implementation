@@ -21,6 +21,10 @@ ACA/
       clase-1.txt
       clase-2.txt
       ...
+    materiales/
+      registro.md
+      <slug-del-documento>.txt
+      ...
     ACA 1/
       trabajo/
         <enunciado original, movido tal cual>
@@ -37,8 +41,8 @@ ACA/
 ```
 
 `<materia-slug>` es la materia en minúsculas, sin acentos, espacios → `-` (ej. "Matemática
-Financiera" → `matematica-financiera`). `clases/` e `integrantes.md` viven a nivel de
-materia (no por ACA) porque se acumulan o se reutilizan a lo largo de todo el curso.
+Financiera" → `matematica-financiera`). `clases/`, `integrantes.md` y `materiales/` viven a
+nivel de materia (no por ACA) porque se acumulan o se reutilizan a lo largo de todo el curso.
 Los números de ACA son consecutivos **por materia**, no globales. `trabajo/` contiene
 el insumo (enunciado) y el **primer borrador** del entregable — ese borrador se somete
 a revisión y el documento que realmente se sube a la plataforma de la universidad vive
@@ -77,7 +81,9 @@ ningún plugin de terceros, solo se reescriben sus principios:
    - Todo existe → la ACA está completa; preguntar qué se necesita (ajustar criterios,
      regenerar el documento, nueva ACA).
 4. **Excepciones**: la Fase 2 (integrantes) solo se salta si `integrantes.md` ya existe
-   para esa materia. La Fase 3 (clases) no se salta nunca por este detector — se
+   para esa materia. La Fase 2.5 (documentos adicionales del curso) solo se salta si
+   `materiales/registro.md` ya existe para esa materia (incluso si ese registro dice
+   que no hay documentos). La Fase 3 (clases) no se salta nunca por este detector — se
    pregunta en toda iteración de ACA, sin importar en qué otra fase se esté retomando.
 5. Nunca repetir una pregunta cuya respuesta ya está en los archivos existentes.
 
@@ -103,6 +109,45 @@ libremente la materia — ese texto define el nuevo `<materia-slug>`.
    dossier, y qué aprendizaje identifica — basado siempre en el contenido real ya
    escrito, nunca inventando anécdotas o incidentes personales que no están en el
    documento.
+
+## Fase 2.5 — Documentos adicionales del curso (materia)
+
+Se pregunta **solo si la materia es nueva** (se está creando su primera ACA) **o si
+todavía no existe** `ACA/<materia-slug>/materiales/registro.md` para esa materia. Una
+vez respondida —incluso si la respuesta es "no hay documentos"— no se vuelve a
+preguntar en iteraciones posteriores de la misma materia (mismo criterio de "una sola
+vez por materia" que la Fase 2 con `integrantes.md`).
+
+1. Preguntar: ¿hay documentos adicionales del curso (plantillas oficiales de entrega,
+   sílabo, guías generales, rúbricas marco) que quieras compartir, además del enunciado
+   puntual de cada ACA?
+2. Si la respuesta es que no hay: crear de todos modos
+   `ACA/<materia-slug>/materiales/registro.md` dejando constancia de que se preguntó y
+   no había documentos — así la Fase 0 no vuelve a preguntar en el futuro.
+3. Si la respuesta es sí, pedir el/los path(s). Por cada archivo:
+   - Leerlo con la herramienta de lectura (si es muy extenso, delegarlo a un fork, igual
+     que con clases largas en la Fase 3).
+   - **No conservar el binario ni copiarlo al repo tal cual** — destilar solo lo que se
+     vaya a necesitar para producir documentos de esa materia: estructura de secciones
+     (si es plantilla de documento o de presentación), normas de formato exigidas
+     (tipografía, interlineado, estilo de citación), contenido de referencia (si es
+     sílabo: ponderaciones, fechas, temáticas — contrastar contra lo ya capturado en
+     `clases/` y señalar discrepancias explícitamente en vez de resolverlas en
+     silencio), o cualquier otro dato estructural reutilizable.
+   - **Si el archivo es una plantilla** (documento Word o presentación): no basta con
+     resumir su contenido — decidir explícitamente qué conservar de su estructura para
+     reutilizarla en los demás documentos de la materia: orden y nombre exacto de cada
+     sección o diapositiva, estilos obligatorios (tipografía, márgenes, portada, pie de
+     página), y cualquier texto guía u orientación que la plantilla traiga por sección
+     — todo como texto plano reutilizable, no como archivo adjunto que haya que reabrir
+     cada vez.
+   - Guardar el resultado destilado en
+     `ACA/<materia-slug>/materiales/<slug-del-documento>.txt` (ej.
+     `plantilla-anteproyecto.txt`, `silabo.txt`), y añadir una línea en
+     `materiales/registro.md` indicando de qué archivo original salió cada uno (solo el
+     nombre/ruta original, el binario no se guarda en el repo).
+4. Estos materiales son, igual que `clases/`, una fuente legítima de referencia para
+   cualquier ACA de esa materia — no cuentan como "investigación externa" de la Fase 8.
 
 ## Fase 3 — Actualizar clases de la materia
 
@@ -244,7 +289,10 @@ no se dejan pendientes.
 ## Fase 10 — Documento entregable (borrador, en `trabajo/`)
 
 1. Releer el enunciado para determinar el formato exigido (Word, PDF, presentación) y la
-   norma que pida (típicamente APA en documentos escritos).
+   norma que pida (típicamente APA en documentos escritos). Revisar también
+   `ACA/<materia-slug>/materiales/` (Fase 2.5): si hay una plantilla oficial
+   destilada para ese tipo de documento, su estructura de secciones y estilos manda
+   sobre cualquier estructura genérica que se hubiera usado por defecto.
 2. Reusar las skills ya construidas en este proyecto:
    - `doc-generator` para producir el archivo real (`python-docx`/`python-pptx`). El
      script generador y el archivo de salida van dentro de `ACA/<materia>/ACA N/trabajo/`
