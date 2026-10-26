@@ -110,15 +110,43 @@ Se ejecuta **siempre**, en cada iteración de ACA (nueva o retomada), sin import
 clases ya existan.
 
 1. Crear `ACA/<materia-slug>/clases/` si no existe.
-2. Listar las clases ya registradas (`clase-1.txt`, `clase-2.txt`, ...).
+2. Listar las clases ya registradas (`clase-1.txt`, `clase-2.txt`, ...) **junto con su
+   identificador** (ver punto 4) — leer la primera línea de cada archivo, no solo el
+   nombre del archivo.
 3. Preguntar: **¿vas a subir alguna clase?**
-4. Si la respuesta es sí: pedir el número de clase y el contenido completo que el
-   usuario pegue (todo lo hablado en esa clase, tal cual). **Depurar antes de guardar**:
-   eliminar relleno sin valor de planificación (saludos, desorden conversacional,
-   repeticiones, divagaciones) y conservar solo la información relevante para resolver
-   futuras ACA — conceptos explicados, definiciones, ejemplos trabajados, fórmulas,
-   indicaciones del profesor sobre la evaluación. Guardar el resultado depurado (no el
-   texto crudo) como `clases/clase-<N>.txt`.
+4. Si la respuesta es sí: pedir el contenido de la clase — texto pegado, o un path a un
+   archivo (`.docx`/`.txt`) si viene de una grabación transcrita. **Primero determinar
+   un identificador de sesión** antes de depurar nada:
+   - Si es un archivo con fecha en el nombre (ej. transcripciones de Zoom/Meet/Teams
+     con patrón `... - YYYY_MM_DD HH_MM ... - Transcript`), usar esa fecha en formato
+     `YYYY-MM-DD` como identificador.
+   - Si no hay fecha en el nombre, buscar una fecha explícita mencionada dentro del
+     contenido (ej. "hoy es 9 de octubre").
+   - Si tampoco hay fecha explícita pero sí se puede inferir con confianza (ej. el
+     profesor dice "la clase pasada", "el viernes anterior", y ya existe una clase
+     previa con fecha confirmada y cadencia semanal conocida), inferirla y marcarla
+     como inferida en el identificador (ej. `2026-10-02 (inferida)`).
+   - Si no hay manera de determinarla, preguntarle al usuario la fecha de esa sesión
+     antes de guardar — no inventar una fecha.
+   - **Comparar ese identificador contra los ya registrados** (punto 2). Si ya existe
+     una clase con el mismo identificador, **no guardarla de nuevo** — avisar al
+     usuario cuál `clase-N.txt` ya cubre esa sesión y preguntar si de verdad es
+     contenido distinto (ej. una continuación de la misma fecha) antes de crear un
+     archivo nuevo.
+   - Si el archivo fuente es muy largo (transcripción cruda de más de ~20.000
+     caracteres, típico de Zoom/Meet/Teams), **delegar la lectura y depuración a un
+     subagente (fork)** en vez de leerlo completo en el contexto principal — el fork
+     debe aplicar la misma regla de depuración del punto siguiente y escribir
+     directamente el archivo de salida.
+   - **Depurar antes de guardar**: eliminar relleno sin valor de planificación
+     (saludos, asistencia, logística administrativa del curso — horarios, tickets,
+     grupos, plataformas — desorden conversacional, repeticiones, divagaciones) y
+     conservar solo la información relevante para resolver futuras ACA — conceptos
+     explicados, definiciones, ejemplos trabajados, fórmulas, indicaciones del
+     profesor sobre la evaluación.
+   - Guardar el resultado depurado (no el texto crudo) como `clases/clase-<N>.txt`,
+     con esta primera línea fija: `Identificador de clase: <YYYY-MM-DD> (<grupo o
+     nota de cómo se determinó, ej. "inferida">)`.
 5. Volver a preguntar **¿subirás otra clase?** y repetir el paso 4 tantas veces como el
    usuario tenga clases que subir (puede subir más de una por iteración) — solo avanzar
    a la Fase 4 cuando el usuario confirme explícitamente que no hay más.
